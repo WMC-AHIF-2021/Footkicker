@@ -1,0 +1,31 @@
+.all{
+    background-color:white;
+    color: black;
+}
+.body{
+    margin-left: 1cm;
+}
+.PointSystem{
+    border-color: black;
+    float: right;
+    margin-right: 16cm;
+    margin-top: -3cm;
+    text-align: center;
+    width: 5cm;
+    height: 5cm;
+}
+.Turnierbaum{
+    border: 1px solid black;
+    margin-left: 27cm;
+    margin-top: 0.5cm;
+    position:absolute;
+}
+.WorldCupTrophy{
+    border: 1px solid black;
+    margin-left: 27cm;
+    margin-top: -0.5cm;
+    position:absolute;
+}
+#pointsystem{
+    border-color: black;
+}
