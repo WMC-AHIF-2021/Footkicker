@@ -1,6 +1,6 @@
 .all{
-    background-color:white;
-    color: black;
+    background-image: url('test.jpg');
+    color: white;
 }
 .body{
     margin-left: 1cm;
@@ -13,6 +13,10 @@
     text-align: center;
     width: 5cm;
     height: 5cm;
+}
+a:hover{
+    opacity: 1;
+    display:grid;
 }
 .Turnierbaum{
     border: 1px solid black;
