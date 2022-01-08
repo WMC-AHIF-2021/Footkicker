@@ -2,21 +2,22 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
     color: black;
-    border-radius: 20px;
+    border-radius: 2em;
 }
 body{
-    background-image: linear-gradient(to top,rgb(11, 148, 228),cyan);
+    background-image: linear-gradient(to top,rgb(51, 51, 207),rgb(11, 142, 206));
     color:black;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 p{
-    margin-left: 2cm;
+    margin-left: 4em;
+    margin-right: 40em;
 }
 h1,h2{
-    margin-left: 2cm;
+    margin-left: 2em;
     color: rgb(38, 142, 206);
     text-decoration: underline;
 }
@@ -28,34 +29,30 @@ h1{
 .PointSystem{
     border-color: lightgrey;
     float: right;
-    margin-right: 8.25cm;
-    margin-top: -4cm;
+    margin-right: 23em;
+    margin-top: -10em;
     text-align: center;
-    width: 5cm;
-    height: 5cm;
-}
-a:hover{
-    opacity: 1;
-    display:grid;
+    width: 8em;
+    height: 8em;
 }
 .Turnierbaum{
-    border: 1px solid lightgrey;
-    margin-left: 31cm;
-    margin-top: 1cm;
+    border: 0.05em solid lightgrey;
+    margin-left: 73em;
+    margin-top: 2.5em;
     position:absolute;
 }
 .WorldCupTrophy{
-    border: 1px solid lightgrey;
-    margin-left: 32.75cm;
-    margin-top: -0.5cm;
+    border: 0.05em solid lightgrey;
+    margin-left: 78em;
+    margin-top: -0.5em;
     position:absolute;
 }
 td{
-    width: 4cm;
-    height: 1.5cm;
+    width: 14em;
+    height: 3.5em;
 }
 #pointsystem{
     border-color: lightgrey;
-    width: 7cm;
-    height: 6cm;
+    width: 16em;
+    height: 14em;
 }
