@@ -16,46 +16,50 @@ p{
     margin-left: 4em;
     margin-right: 40em;
 }
-h2{
+h2 {
     margin-left: 2em;
+}
+h1,h2{
     color: rgb(38, 142, 206);
     text-decoration: underline;
 }
 h1{
     margin-left: 1.7em;
-    color: rgb(38, 142, 206);
-    text-decoration: underline;
     text-align: left;
     text-transform: uppercase;
     font-size: 230%;
 }
-.PointSystem{
-    border-color: lightgrey;
-    float: right;
-    margin-right: 23em;
-    margin-top: -10em;
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: darkcyan;
+}
+a:link {
+    color: darkblue;
+}
+a:hover {
+    color: blueviolet;
+}
+table, tr, td, th{
+    border: 0.05em solid lightgray;
+    border-collapse: collapse;
+    padding: 0.9em;
+}
+tr:hover {
+    background-color: lightgray;
+}
+table {
+    position: absolute;
+    margin-left: 60em;
+    margin-top: 3em;
+}
+#listCenter{
     text-align: center;
-    width: 8em;
-    height: 8em;
 }
-.Turnierbaum{
-    border: 0.05em solid lightgrey;
-    margin-left: 73em;
-    margin-top: 2.5em;
-    position:absolute;
-}
-.WorldCupTrophy{
-    border: 0.05em solid lightgrey;
-    margin-left: 78em;
-    margin-top: -0.5em;
-    position:absolute;
-}
-td{
-    width: 14em;
-    height: 3.5em;
-}
-#pointsystem{
-    border-color: lightgrey;
-    width: 16em;
-    height: 14em;
+.fixed-bottom {
+    border-radius: 10px;
+    color: red;
+    margin-left: 85em;
+    margin-bottom: 1em;
 }
