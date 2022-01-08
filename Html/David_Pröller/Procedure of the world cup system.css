@@ -40,14 +40,14 @@ h1{
 }
 .Turnierbaum{
     border: 0.05em solid lightgrey;
-    margin-left: 73em;
-    margin-top: 2.5em;
+    margin-left: 53em;
+    margin-top: 10em;
     position:absolute;
 }
 .WorldCupTrophy{
     border: 0.05em solid lightgrey;
-    margin-left: 78em;
-    margin-top: -0.5em;
+    margin-left: 57em;
+    margin-top: 2em;
     position:absolute;
 }
 td{
