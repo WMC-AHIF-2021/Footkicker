@@ -13,6 +13,7 @@ body{
     margin-bottom: 2em;
 }
 p{
+    text-align: left;
     margin-left: 4em;
     margin-right: 40em;
 }
@@ -31,15 +32,56 @@ h2{
     margin-right: 5em;
     float: right;
 }
-table, th , td{
+table, th {
     border: 0.1em solid lightgrey;
     border-collapse: collapse;
-    width: 8.5em;
-    height: 1.7em;
+    width: 10em;
+    height: 3em;
     text-align: center;
     text-decoration: none;
 }
+td{
+    border-bottom: 0.1em solid lightgrey;
+}
+a:visited{
+    color:rgb(12, 180, 180);
+}
 a{
-    color: black;
     text-decoration: none;
+    margin-top: -0.2em;
+}
+.groupa{
+    margin-left: 4em;
+}
+.groupb{
+    margin-left: 34em;
+    margin-top: -10.5em;
+}
+.groupc{
+    margin-left: 64em;
+    margin-top: -10.5em;
+}
+.groupd{
+    margin-left: 94em;
+    margin-top: -10.5em;
+}
+.groupe{
+    margin-top: 7em;
+    margin-left: 4em;
+}
+.groupf{
+    margin-left: 34em;
+    margin-top: -10.5em;
+}
+.groupg{
+    margin-left: 64em;
+    margin-top: -10.5em;
+}
+.grouph{
+    margin-left: 94em;
+    margin-top: -10.5em;
+}
+img{
+    border: 0.1em solid lightgrey;
+    margin-top: 0.2em;
 }
