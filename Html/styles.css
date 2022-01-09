@@ -28,6 +28,18 @@ h2{
     text-decoration: underline;
 }
 .wm2018{
-    margin-left: 55em;
-    position: absolute;
+    margin-right: 5em;
+    float: right;
+}
+table, th , td{
+    border: 0.1em solid lightgrey;
+    border-collapse: collapse;
+    width: 8.5em;
+    height: 1.7em;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-decoration: none;
 }

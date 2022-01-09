@@ -38,8 +38,8 @@ h1{
 }
 #Soccer{
     margin-top: 10em;
-    margin-left: 40em;
-    position:absolute;
+    margin-right: 20em;
+    float:right;
     height: 20em;
     width: 40em;
 }

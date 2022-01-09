@@ -50,16 +50,14 @@ tr:hover {
     background-color: lightgray;
 }
 table {
-    position: absolute;
-    margin-left: 60em;
-    margin-top: 3em;
+    float: right;
+    margin-right: 12em;
+    margin-top: 1em;
 }
 #listCenter{
     text-align: center;
 }
 .fixed-bottom {
-    border-radius: 10px;
-    color: red;
-    margin-left: 85em;
+    margin-left: 107em;
     margin-bottom: 1em;
 }
