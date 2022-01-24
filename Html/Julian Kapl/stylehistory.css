@@ -1,0 +1,70 @@
+.all{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    color: black;
+    border-radius: 2em;
+}
+body{
+    background-image: linear-gradient(to top,rgb(51, 51, 207),rgb(11, 142, 206));
+    color:black;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+p{
+    margin-left: 4em;
+    margin-right: 40em;
+}
+h2{
+    margin-left: 2.7em;
+    color: rgb(38, 142, 206);
+    text-decoration: underline;
+}
+h1{
+    margin-left: 1.7em;
+    color: rgb(38, 142, 206);
+    text-decoration: underline;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 230%;
+}
+#PictureofWC{
+    float: right;
+    margin-right: 5cm;
+    height: 30em;
+    width: 20em;
+   
+}
+#Soccer{
+    margin-top: 10em;
+    margin-right: 15em;
+    float:right;
+    height: 20em;
+    width: 40em;
+}
+.ersteTabelle{
+    border: 0.05em solid lightgrey;
+    width: 38em;
+    height: 25em;
+    border-collapse: collapse;
+    margin-left: 3.7em;
+}
+.zweiteTabelle{
+    border: 0.05em solid lightgrey;
+    width: 22em;
+    height: 25em;
+    border-collapse: collapse;
+    margin-left: 3.7em;
+}
+th, td{
+    border: 0.05em solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
