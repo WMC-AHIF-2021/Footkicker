@@ -1,0 +1,95 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(75, 73, 73);
+    color:white;
+    hyphens: auto;
+}
+.taskleiste {
+    font-size: 155%;
+    margin-top: -0.3em;
+    position: fixed;
+    width: 100%;
+}
+p{
+    font-size: 140%;
+    hyphens: auto;
+    margin-left: 4.8em;
+    margin-right: 20em;
+}
+h2{
+    margin-left: 3.4em;
+    font-size: 200%;
+}
+h1,h2{
+    color: rgb(38, 142, 206);
+    text-decoration: underline;
+}
+h1{
+    margin-left: 2.6em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 260%;
+}
+#PictureofWC{
+    float: right;
+    margin-right: 4em;
+    margin-top: 3.5em;
+    margin-left: 4em;
+    height: 30em;
+    width: 20em;
+   
+}
+#Soccer{
+    margin-top: 3em;
+    margin-right: 12em;
+    float: right;
+    height: 20em;
+    width: 35em;
+}
+.ersteTabelle{
+    border: 0.05em solid lightgrey;
+    width: 42em;
+    height: 25em;
+    border-collapse: collapse;
+    margin-left: 6.8em;
+}
+#moreSpace0 {
+    width: 15em;
+}
+#moreSpace1 {
+    width: 12em;
+}
+#moreSpace2 {
+    width: 8em;
+}
+#moreSpace3 {
+    width: 9em;
+}
+.zweiteTabelle{
+    border: 0.05em solid lightgrey;
+    width: 22em;
+    height: 25em;
+    border-collapse: collapse;
+    margin-left: 6.8em;
+}
+th, td{
+    border: 0.05em solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+}
+a:visited {
+    color: lightblue;
+}
+a:link {
+    color: lightblue;
+}
+a:hover {
+    color: blueviolet;
+}
+tr:hover {
+    background-color: rgb(145, 139, 139);
+}
+#noMargin {
+    margin-right: 8em;
+}
