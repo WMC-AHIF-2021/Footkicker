@@ -6,6 +6,7 @@ body{
 }
 .taskleiste {
     font-size: 155%;
+    margin-top: -0.3em;
 }
 p{
     font-size: 140%;
