@@ -1,0 +1,57 @@
+table, th, td {
+    border: 0.1em solid lightgrey;
+    border-collapse: collapse;
+    padding: 0.4em;
+}
+th {
+    background-color: rgb(38, 142, 206);
+    color: white;
+}
+table {
+    width: 40%;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 0.1em solid lightgrey
+}
+h1 {
+    font-size: 800%;
+    margin-top: 0.7em;
+    color: rgb(38, 142, 206);
+    text-align: center;
+}
+h2 {
+    font-size: 300%;
+    margin-top: 2.7em;
+    margin-left: 18%;
+    color: rgb(38, 142, 206);
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    background-color: rgb(75, 73, 73);
+}
+#centerText {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(38, 142, 206);
+    font-size: 110%;
+}
+.Spiele {
+    float: right;
+    margin-top: -88.8em;
+    margin-right: -55em;
+    width: 110em;
+}
+.taskleiste {
+    font-size: 155%;
+    width: 100%;
+}
