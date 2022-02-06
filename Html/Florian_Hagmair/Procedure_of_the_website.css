@@ -1,39 +1,38 @@
-.all{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:white;
-    color: black;
-    border-radius: 2em;
-}
 body{
-    background-image: linear-gradient(to top,rgb(51, 51, 207),rgb(11, 142, 206));
-    color:black;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    background-color: rgb(75, 73, 73);
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    hyphens: auto;
+    
+}
+.taskleiste {
+    font-size: 155%;
 }
 p{
-    margin-left: 4em;
-    margin-right: 40em;
+    font-size: 140%;
+    margin-left: 4.8em;
+    margin-right: 11em;
+    hyphens: auto;
 }
 h2 {
-    margin-left: 2em;
+    margin-left: 3.4em;
+    font-size: 200%;
 }
 h1,h2{
     color: rgb(38, 142, 206);
     text-decoration: underline;
 }
 h1{
-    margin-left: 1.7em;
+    margin-left: 2.6em;
     text-align: left;
     text-transform: uppercase;
-    font-size: 230%;
+    font-size: 260%;
 }
 a {
     text-decoration: none;
 }
 a:visited {
-    color: darkcyan;
+    color: rgb(126, 190, 190);
 }
 a:link {
     color: darkblue;
@@ -47,17 +46,17 @@ table, tr, td, th{
     padding: 0.9em;
 }
 tr:hover {
-    background-color: lightgray;
+    background-color: rgb(145, 139, 139);
 }
 table {
     float: right;
-    margin-right: 12em;
-    margin-top: -7em;
+    margin-right: 3em;
+    margin-top: 3.5em;
+    margin-left: 5em;
 }
 #listCenter{
     text-align: center;
 }
-.fixed-bottom {
-    margin-left: 107em;
-    margin-bottom: 1em;
+.tableMargin {
+    margin-right: 11em;
 }

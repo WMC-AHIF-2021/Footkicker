@@ -1,36 +1,41 @@
-.all{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:white;
-    color: black;
-    border-radius: 2em;
+
+.taskleiste {
+    font-size: 176%;
 }
-body{
-    background-image: linear-gradient(to top,rgb(51, 51, 207),rgb(11, 142, 206));
-    color:black;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(75, 73, 73);
+    margin-top: -2em;
+    color: white;
+}
+#tasküs{
+    color: rgb(38, 142, 206);
+}
+li{
+    list-style: none;
 }
 p{
+    font-size:x-large;
     text-align: left;
-    margin-left: 4em;
-    margin-right: 40em;
+    margin-left: 4.5em;
+    margin-right: 4em;
 }
 h1{
     text-align: center;
     color: rgb(38, 142, 206);
     font-size: 500%;
 }
+.navbar-toggler{
+    border-radius: 1px solid white;
+}
 h2{
     color: rgb(38, 142, 206);
-    margin-left: 2em;
+    margin-left: 3.4em;
     font-size: 200%;
     text-decoration: underline;
 }
 .wm2018{
-    margin-right: 5em;
-    float: right;
+    margin-left: 12em;
 }
 table, th {
     border: 0.1em solid lightgrey;
