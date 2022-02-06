@@ -1,0 +1,119 @@
+.ALL{
+    background-color: rgb(75, 73, 73);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.taskleiste {
+    font-size: 155%;
+    width: 100%;
+}
+#tasküs{
+    color: rgb(38, 142, 206);
+}
+li{
+    list-style: none;
+}
+p{
+    font-size:x-large;
+    text-align: left;
+    margin-left: 4.5em;
+    margin-right: 4em;
+}
+h1{
+    text-align: center;
+    color: rgb(38, 142, 206);
+    font-size: 500%;
+}
+.navbar-toggler{
+    border-radius: 1px solid white;
+}
+h2{
+    color: rgb(38, 142, 206);
+    margin-left: 3.4em;
+    font-size: 200%;
+    text-decoration: underline;
+}
+.wm2018{
+    margin-left: 17.5em;
+}
+table, th,td {
+    font-size: 115%;
+    border: 0em solid white;
+    border-collapse: collapse;
+    width: 15em;
+    height: 3em;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(12, 180, 180);
+}
+a{
+    text-decoration: none;
+    margin-top: -0.2em;
+}
+.groupa{
+    border-color: white;
+    margin-left: 4em;
+}
+.groupb{
+    margin-left: 24em;
+    margin-top: -17.2em;
+}
+.groupc{
+    margin-left: 44em;
+    margin-top: -17.2em;
+}
+.groupd{
+    margin-left:64em;
+    margin-top: -17.2em;
+}
+.groupe{
+    margin-left: 4em;
+}
+.groupf{
+    margin-left: 24em;
+    margin-top: -17.3em;
+}
+.groupg{
+    margin-left: 44em;
+    margin-top: -17.2em;
+}
+.grouph{
+    margin-left:64em;
+    margin-top: -17.2em;
+}
+img{
+    border: 0.1em solid lightgrey;
+    margin-top: 0.2em;
+}
+h3{
+    margin-left: 3.8em;
+    color: rgb(38, 142, 206);
+}
+.AboutUs{
+    margin-top: 10em;
+}
+.flo{
+    margin-left: 70em;
+    margin-top: -20em;
+}
+.textflo{
+    margin-right: 20em;
+}
+.textdavid{
+    margin-top: 7em;
+    margin-left: 20em;
+}
+.david{
+    margin-left: 6.5em;
+    margin-top: -17.5em;
+}
+.textjulian{
+    margin-top: 7em;
+    margin-right: 20em;
+}
+.julian{
+    margin-left: 70em;
+    margin-top: -17em;
+}
