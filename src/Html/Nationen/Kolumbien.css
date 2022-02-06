@@ -1,0 +1,52 @@
+table, th, td {
+    border: 0.1em solid lightgrey;
+    border-collapse: collapse;
+    padding: 0.4em;
+}
+th {
+    background-color: rgb(38, 142, 206);
+    color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    width: 40%;
+    margin-left: 2.5em;
+    margin-top: 2em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 0.1em solid lightgrey
+}
+h1 {
+    font-size: 800%;
+    margin-top: 0.7em;
+    color: rgb(38, 142, 206);
+    text-align: center;
+}
+h2 {
+    font-size: 300%;
+    margin-top: 2.7em;
+    margin-left: 18%;
+    color: rgb(38, 142, 206);
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.Spiele {
+    float: right;
+    margin-top: -88.6em;
+    margin-right: -55em;
+    width: 110em;
+}

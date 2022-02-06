@@ -46,14 +46,10 @@ body{
 }
 .Spiele {
     float: right;
-    margin-top: -94.4em;
-    margin-right: -60em;
+    margin-top: -88.7em;
+    margin-right: -55em;
     width: 110em;
 }
-#centerText {
-    text-align: center;
-    font-weight: bold;
-    color: rgb(38, 142, 206);
-    font-size: 110%;
+.taskleiste {
+    font-size: 155%;
 }
-
