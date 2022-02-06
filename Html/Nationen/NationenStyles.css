@@ -35,19 +35,20 @@ h2 {
     margin-left: 18%;
     color: rgb(38, 142, 206);
 }
-div{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:white;
-    color: black;
-    border-radius: 2em;
-}
+
 body{
-    background-image: linear-gradient(to top,rgb(51, 51, 207),rgb(11, 142, 206));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:black;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+.Spiele {
+    float: right;
+    margin-top: -94.4em;
+    margin-right: -60em;
+    width: 110em;
 }
 #centerText {
     text-align: center;
