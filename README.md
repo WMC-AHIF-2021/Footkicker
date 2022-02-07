@@ -54,7 +54,6 @@
         <li>Florian Hagmair (Leader)</li>
         <li>David Pröller</li>
         <li>Julian Kapl</li>
-        <li>Rabeder Marcus</li>
     </ul>
 <h2>Tasks of each Member</h2>
 <div class="tasks">
