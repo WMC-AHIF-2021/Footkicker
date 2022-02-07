@@ -64,4 +64,4 @@
     <li><u>Julian Kapl:</u> He is responsible for the history of all world cup's.<br> When started the first world cup? Which teams are the favourites? How is the history behind the all world cups?</li>
 </div>
 
-<img src = "src/Images/wm-2018-2-600.jpg" alt="Picture of world cup 2018">
+<img src = "src/Images/wm-2018-2-600.jpg" width="100%" height="450" alt="Picture of world cup 2018">
