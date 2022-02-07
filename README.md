@@ -3,9 +3,9 @@
 <h2>Description</h2>
 <h3>static part</h3>
 <ul style="list-style-type: circle;";> 
-    <li> We want to give you the perfect <strong>overview</strong> of the <strong>fifa world cup 2022</strong>.</li> 
+    <li> We want to give you the perfect <strong>overview</strong> of the <strong>fifa world cup 2018</strong>.</li> 
     <li> Here you will be shown all <strong>game results</strong>.</li>
-    <li> If you are a big football fan then follow footkicker to get <strong>detailed information</strong> about the whole fifa world cup 2022.</li>
+    <li> If you are a big football fan then follow footkicker to get <strong>detailed information</strong> about the whole fifa world cup 2018.</li>
     <ul style="list-style-type: disc;";>
         <li> top scorer</li>
         <li> most assists</li>
@@ -64,4 +64,4 @@
     <li><u>Julian Kapl:</u> He is responsible for the history of all world cup's.<br> When started the first world cup? Which teams are the favourites? How is the history behind the all world cups?</li>
 </div>
 
-<img src = "Images\FIFA-WM-2022.jpg">
+<img src = "src/Images/wm-2018-2-600.jpg" alt="Picture of world cup 2018">
