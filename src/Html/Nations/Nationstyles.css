@@ -1,69 +1,51 @@
-#games{
-    margin-left: 21.75em;
-    margin-top: -20.4em;
-}
-#spiele{
-    width: 40%;
-    margin-left: 53em;
-    margin-top: 2em;
-}
-#squad{
-    margin-left: 6em;
-}
-#spieler{
-    width: 45%;
-    border: 0.1em solid white;
-    border-collapse: collapse;
-    padding: 0.4em;
-    margin-left: 2.5em;
-    margin-top: 2em;
-    background-color: rgb(75, 73, 73);
-    color: white;
-}
-th{
-    border: 0.1em solid white;
-    background-color: rgb(38, 142, 206);
-    border-collapse: collapse;
-    color: white;
-}
-td{
-    border: 0.1em solid white;
-    border-collapse: collapse;
-    color: white;
-}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+    height: 40%;
     border: 0.1em solid lightgrey;
 }
-h1 {
-    font-size: 800%;
-    margin-top: 0.7em;
-    color: rgb(38, 142, 206);
+h1{
     text-align: center;
+    font-size: 700%;
 }
-h2 {
-    font-size: 300%;
-    margin-top: 2.7em;
-    margin-left: 18%;
-    color: rgb(38, 142, 206);
-}
-
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
     background-color: rgb(75, 73, 73);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
-#centerText {
-    text-align: center;
-    font-weight: bold;
-    color: rgb(38, 142, 206);
+table{
+    margin-left: 8%;
+    border: 2px solid black;
+    width: 40%;
+    height: 40%;
+}
+th,td{
+    border: 2px solid black;
     font-size: 110%;
+    text-align: center;
 }
-.taskleiste {
-    font-size: 155%;
-    width: 100%;
-    margin-top: -0.3em;
+th{
+    color: rgb(38, 142, 206);
+    font-size: 140%;
+}
+#centerText{
+    color: rgb(38, 142, 206);
+    font-size: 140%;
+    text-align: center;
+}
+#squad{
+    color: rgb(38, 142, 206);
+    font-size: 400%;
+    margin-left: 22.5%;
+}
+#games{
+    color: rgb(38, 142, 206);
+    margin-left: 65%;
+    font-size: 400%;
+    margin-top: -57.3%;
+}
+#spiele{
+    margin-left: 52%;
 }
