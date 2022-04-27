@@ -1,0 +1,73 @@
+.grid-container 
+{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto;
+     grid-gap: 10px;
+     padding: 0px;
+     background-color: none;
+}
+
+.grid-container > div 
+{
+     background-color: rgb(75, 73, 73);
+     text-align: center;
+     padding: 0px;
+}
+#bildgröße
+{
+     width: 65%;
+     height: 80%;
+}
+.item1
+{
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     font-size: 200%;
+     
+}
+#gruppenÜberschrift {
+    color: rgb(38, 142, 206);
+    margin-left: 44%;
+    font-size: 150%;
+}
+#arrows
+{
+     margin-bottom: -2%;
+
+}
+#points{
+     margin-bottom: 6%;
+}
+
+.item2
+{
+     grid-column-start: 1;
+     grid-column-end: 2;
+     grid-row-start: 2;
+     grid-row-end: 3;
+}
+.item3
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item4
+{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.item5
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
