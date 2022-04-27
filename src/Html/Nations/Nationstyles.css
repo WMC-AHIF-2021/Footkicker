@@ -2,13 +2,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    height: 40%;
+    width: 49%;
+    height: 49%;
     border: 0.1em solid lightgrey;
 }
 h1{
     text-align: center;
-    font-size: 700%;
+    font-size: 800%;
 }
 body{
     background-color: rgb(75, 73, 73);
@@ -17,27 +17,28 @@ body{
 }
 table{
     border: 2px solid black;
-    width: 50%;
+    width: 70%;
 }
 th,td{
     border: 2px solid black;
-    font-size: 110%;
+    font-size: 130%;
     text-align: center;
 }
 th{
     color: rgb(38, 142, 206);
-    font-size: 140%;
+    font-size: 160%;
 }
 #centerText{
     color: rgb(38, 142, 206);
-    font-size: 140%;
+    font-size: 160%;
     text-align: center;
 }
 #squad{
     color: rgb(38, 142, 206);
-    font-size: 400%;
-    margin-left: 44%;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 10%;
 }
 #spieler{
-    margin-left: 25%;
+    margin-left: 15%;
 }
