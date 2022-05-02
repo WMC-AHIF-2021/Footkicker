@@ -34,8 +34,8 @@ li{
 p{
     font-size:x-large;
     text-align: left;
-    margin-left: 4.5em;
-    margin-right: 4em;
+    margin-left: 4.5%;
+    margin-right: 8%;
 }
 h1{
     text-align: center;
@@ -47,60 +47,73 @@ h1{
 }
 h2{
     color: rgb(38, 142, 206);
-    margin-left: 3.4em;
+    margin-left: 3.5%;
     font-size: 200%;
     text-decoration: underline;
 }
 .wm2018{
-    margin-left: 17.5em;
-}
-table, th,td {
-    font-size: 115%;
-    border: 0em solid white;
-    border-collapse: collapse;
-    width: 15em;
-    height: 3em;
-    text-align: center;
-    text-decoration: none;
+    margin-left: 20%;
 }
 a:visited{
     color:rgb(12, 180, 180);
 }
-a{
-    text-decoration: none;
-    margin-top: -0.2em;
-}
 img{
     border: 0.1em solid lightgrey;
-    margin-top: 0.2em;
+    margin-top: 0.2%;
 }
 h3{
-    margin-left: 3.8em;
+    margin-left: 3.5%;
     color: rgb(38, 142, 206);
 }
 #AboutUs{
-    margin-top: 10em;
+    margin-top: 2%;
 }
 .flo{
-    margin-left: 70em;
-    margin-top: -20em;
+    margin-left: 80%;
+    margin-top: -14%;
 }
 .textflo{
-    margin-right: 20em;
-}
-.textdavid{
-    margin-top: 7em;
-    margin-left: 20em;
+    margin-right: 20%;
 }
 .david{
-    margin-left: 6.5em;
-    margin-top: -17.5em;
+    margin-left: 2%;
+    margin-top: -13%;
+}
+.textdavid{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+h4{
+    margin-left: 4.5%;
+    color: rgb(38, 142, 206);
+    font-size: 180%;
 }
 .textjulian{
-    margin-top: 7em;
-    margin-right: 20em;
+    margin-top: 5%;
+    margin-right: 15%;
 }
 .julian{
-    margin-left: 70em;
-    margin-top: -17em;
+    margin-left: 80%;
+    margin-top: -14%;
+}
+h5{
+    margin-left: 4.5%;
+    color: rgb(38, 142, 206);
+    font-size: 180%;
+}
+h6{
+    color: rgb(38, 142, 206);
+    margin-left: 4.5%;
+    font-size: 200%;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.NAVBAR {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    font-size: 190%;
 }
