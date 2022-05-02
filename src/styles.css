@@ -10,6 +10,16 @@ body{
     top: 0;
     z-index: 100;
 }
+a{
+    text-decoration: none;
+}
+.NAVBAR {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    font-size: 190%;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -32,27 +42,16 @@ li{
     list-style: none;
 }
 p{
-    font-size:x-large;
+    font-size: 250%;
     text-align: left;
     margin-left: 4.5%;
     margin-right: 8%;
 }
-h1{
-    text-align: center;
-    color: rgb(38, 142, 206);
-    font-size: 500%;
-}
 .navbar-toggler{
     border-radius: 1px solid white;
 }
-h2{
-    color: rgb(38, 142, 206);
-    margin-left: 3.5%;
-    font-size: 200%;
-    text-decoration: underline;
-}
 .wm2018{
-    margin-left: 27%;
+    margin-left: 25%;
 }
 a:visited{
     color:rgb(12, 180, 180);
@@ -61,32 +60,23 @@ img{
     border: 1px solid lightgrey;
     margin-top: 0.2%;
 }
-h3{
-    margin-left: 3.5%;
-    color: rgb(38, 142, 206);
-}
 #AboutUs{
     margin-top: 2%;
 }
 .flo{
     margin-left: 80%;
-    margin-top: -14%;
+    margin-top: -18%;
 }
 .textflo{
     margin-right: 20%;
 }
 .david{
     margin-left: 2%;
-    margin-top: -13%;
+    margin-top: -17%;
 }
 .textdavid{
     margin-top: 2%;
     margin-left: 15%;
-}
-h4{
-    margin-left: 4.5%;
-    color: rgb(38, 142, 206);
-    font-size: 180%;
 }
 .textjulian{
     margin-top: 5%;
@@ -94,26 +84,38 @@ h4{
 }
 .julian{
     margin-left: 80%;
-    margin-top: -14%;
+    margin-top: -17%;
+}
+h1{
+    text-align: center;
+    color: rgb(38, 142, 206);
+    font-size: 500%;
+}
+h2{
+    color: rgb(38, 142, 206);
+    margin-left: 3.5%;
+    font-size: 320%;
+}
+h3{
+    margin-left: 3.5%;
+    color: rgb(38, 142, 206);
+    font-size: 280%;
+}
+h4{
+    margin-left: 4.5%;
+    color: rgb(38, 142, 206);
+    font-size: 280%;
 }
 h5{
     margin-left: 4.5%;
     color: rgb(38, 142, 206);
-    font-size: 180%;
+    font-size: 280%;
 }
 h6{
     color: rgb(38, 142, 206);
     margin-left: 4.5%;
-    font-size: 200%;
-    text-decoration: underline;
+    font-size: 280%;
 }
-a{
-    text-decoration: none;
-}
-.NAVBAR {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    font-size: 190%;
+#gruppenÜberschrift{
+    font-size: 280%;
 }
