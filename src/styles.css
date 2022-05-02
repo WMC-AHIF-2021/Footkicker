@@ -13,13 +13,6 @@ body{
 a{
     text-decoration: none;
 }
-.NAVBAR {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    font-size: 190%;
-}
 .dropdown {
     position: relative;
     display: inline-block;
