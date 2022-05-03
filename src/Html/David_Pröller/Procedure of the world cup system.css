@@ -1,21 +1,24 @@
 body{
     background-color: rgb(75, 73, 73);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     hyphens: auto;
 }
-.taskleiste {
-    font-size: 155%;
-    margin-top: -0.3em;
+.NAVBAR{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    font-size: 190%;
 }
 p{
     font-size: 140%;
+    margin-left: 7.1%;
+    margin-right: 10%;
     hyphens: auto;
-    margin-left: 4.8em;
-    margin-right: 20em;
 }
 h2 {
-    margin-left: 3.4em;
+    margin-left: 7%;
     font-size: 200%;
 }
 h1,h2{
@@ -23,48 +26,46 @@ h1,h2{
     text-decoration: underline;
 }
 h1{
-    margin-left: 2.6em;
+    margin-left: 7%;
     text-align: left;
     text-transform: uppercase;
     font-size: 260%;
 }
-#allSideP {
-    color: white;
-    margin-right: 2em;
+a {
+    text-decoration: none;
 }
-.PointSystem{
-    border-color: lightgrey;
-    float: right;
-    margin-right: 12em;
-    margin-top: -18em;
-    text-align: center;
-    width: 8em;
-    height: 8em;
+a:visited {
+    color: rgb(126, 190, 190);
 }
-.Turnierbaum{
-    border: 0.05em solid lightgrey;
-    margin-right: 4em;
-    margin-top: 3.5em;
-    margin-left: 6em;
-    float: right;
+a:link {
+    color: rgb(126, 190, 190);
+}
+a:hover {
+    color: blueviolet;
 }
 tr:hover {
     background-color: rgb(145, 139, 139);
 }
-.WorldCupTrophy{
-    border: 0.05em solid lightgrey;
-    margin-right: 4.1em;
-    margin-top: 3.5em;
-    margin-left: 5em;
-    float: right;
-}
-td{
-    width: 14em;
-    height: 3.5em;
-}
-#pointsystemtable{
-    border-color: lightgrey;
+.TurnierbaumPicture{
+    width: 30%;
+    float:right;
     color: white;
-    width: 16em;
-    height: 14em;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+#center{
+    text-align: center;
+    width: 50%;
+}
+#pointSystem{
+    width: 30%;
+    color: white;
+    margin-left: 35%;
+}
+.WorldCupTrophyPicture{
+    float:right;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 1%;
 }
