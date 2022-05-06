@@ -1,0 +1,38 @@
+[
+  {
+    "points": 0,
+    "game": 1,
+    "teamOne": "England",
+    "teamTwo": "France",
+    "team1Icon": "./resources/icon/united-kingdom.png",
+    "team2Icon": "./resources/icon/france.png",
+    "team1Score": 2,
+    "team2Score": 3,
+    "winner": 1,
+    "done": false
+  },
+  {
+    "points": 0,
+    "game": 2,
+    "teamOne": "Iceland",
+    "teamTwo": "Brazil",
+    "team1Icon": "./resources/icon/iceland.png",
+    "team2Icon": "./resources/icon/brazil.png",
+    "team1Score": 2,
+    "team2Score": 5,
+    "winner": 1,
+    "done": false
+  },
+  {
+    "points": 0,
+    "game": 3,
+    "teamOne": "Croatia",
+    "teamTwo": "Spain",
+    "team1Icon": "./resources/icon/croatia.png",
+    "team2Icon": "./resources/icon/spain.png",
+    "team1Score": 1,
+    "team2Score": 1,
+    "winner": 0,
+    "done": false
+  }
+]
