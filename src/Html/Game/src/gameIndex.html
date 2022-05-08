@@ -10,43 +10,49 @@
 </head>
 <body>
 <h1 style="color: white">Bet Simulator</h1>
+<h1 style="color: white">Round of 16</h1><br>
+<h3 style="color: white" id="punkte"></h3>
 <div class="borderRadius">
 <table id="betTable" class="table table-borderless table-hover">
-    <thead>
-    <tr>
-        <th scope="col">Team 1</th>
-        <th scope="col">vs</th>
-        <th scope="col">Team 2</th>
-        <th scope="col"></th>
-    </tr>
-    </thead>
-    <tbody>
         <tr>
-            <td><img class="flagIcon" src="./resources/icon/france.png"></img><p>France</p></td>
-            <td class="align-middle">:</td>
-            <td><img class="flagIcon" src="./resources/icon/united-kingdom.png"></img><p>England</p></td>
+            <td><div id="index1"></div></td>
             <td class="align-middle"><button type="button" class="btn betButton" id="1">Bet</button></td>
         </tr>
-        <tr >
-            <td><img class="flagIcon" src="./resources/icon/iceland.png"></img><p>Iceland</p></td>
-            <td class="align-middle">:</td>
-            <td><img class="flagIcon" src="./resources/icon/brazil.png"></img><p>Brazil</p></td>
+        <tr>
+            <td><div id="index2"></div></td>
             <td class="align-middle"><button type="button" class="btn betButton" id="2">Bet</button></td>
         </tr>
         <tr>
-            <td><img class="flagIcon" src="./resources/icon/croatia.png"></img><p>Croatia</p></td>
-            <td class="align-middle">:</td>
-            <td><img class="flagIcon" src="./resources/icon/spain.png"></img><p>Spain</p></td>
-            <td class="align-middle"><button type="button" class="btn betButton"  id="3">Bet</button></td>
+            <td><div id="index3"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="3">Bet</button></td>
         </tr>
-    </tbody>
+        <tr>
+            <td><div id="index4"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="4">Bet</button></td>
+        </tr>
+        <tr>
+            <td><div id="index5"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="5">Bet</button></td>
+        </tr>
+        <tr>
+            <td><div id="index6"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="6">Bet</button></td>
+        </tr>
+        <tr>
+            <td><div id="index7"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="7">Bet</button></td>
+        </tr>
+        <tr>
+            <td><div id="index8"></div></td>
+            <td class="align-middle"><button type="button" class="btn betButton" id="8">Bet</button></td>
+        </tr>
 </table>
 </div>
 
 
 <div id="betArea" class="container">
-    <h3 id="punkte"></h3>
     <h3 id="header"></h3>
+    <h3 style="color: white" id="punkte"></h3>
     <div class="row">
         <div id="team1" class="col flag">
         </div>
@@ -91,6 +97,9 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+<!--
+https://www.eurosport.de/fussball/fifa-wm/2018/wm-2018-spielplan-alle-wm-spiele-finale-termine-ergebnisse-tabellen_sto6691356/story.shtml
+https://www.flaticon.com/search?word=england&order_by=4
+-->
 </body>
 </html>
