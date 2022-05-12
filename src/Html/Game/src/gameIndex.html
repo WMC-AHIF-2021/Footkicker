@@ -9,6 +9,43 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-dark fixed-top" style="background-color: rgb(51,51,51);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../../index.html" id="logoName">Footkicker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="offcanvas offcanvas-end" style="background-color: rgb(25,25,25);" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Footkicker</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="offnavbar">
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../index.html#AboutUs" id="offnavbarColor">About Us</a>
+                  <a class="nav-link" href="../Game/src/gameIndex.html" id="offnavbarColor">Bet</a>
+                  <a class="nav-link" href="../../../index.html#myCarousel" id="offnavbarColor">Groups</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="offnavbarColor" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="../Julian Kapl/History.html" id="offnavbarColor">History</a></li>
+                    <li><a class="dropdown-item" href="../David_Pröller/Procedure of the world cup system.html" id="offnavbarColor">Procedure of the world cup</a></li>
+                    <li><a class="dropdown-item" href="../Florian_Hagmair/Procedure_of_the_website.html" id="offnavbarColor">Procedure of the website</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
 <h1 style="color: white">Bet Simulator</h1>
 <h1 style="color: white">Round of 16</h1><br>
 <h3 style="color: white" id="punkte"></h3>

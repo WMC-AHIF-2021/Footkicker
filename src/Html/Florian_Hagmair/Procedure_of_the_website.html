@@ -1,104 +1,120 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta name="Florian Hagmair" content="Procedure of the website">
-        <title>Procedure of the website</title>
-        <link rel="icon" href="../../Images/Logo.PNG" type="image/png" style="width: 16px; height: 16px;">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="Procedure_of_the_website.css">
-    </head>
-    
-    <body>
-        <div class="NAVBAR">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid"  style="margin-top: 0.3%; margin-bottom: 0.3%">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="../../../index.html" style="font-size: 150%; margin-left: 20%">Footkicker</a>
-                    </div>
-                    <ul class="nav navbar-nav" style="margin-left: 50%">
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="../Julian Kapl/History.html">History</a></li>
-                                <li><a href="../Florian_Hagmair/Procedure_of_the_website.html">Procedure of the website</a></li>
-                                <li><a href="../David_Pröller/Procedure of the world cup system.html">Procedure of the world cup</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../../../index.html#AboutUs">About Us</a></li>
-                        <li><a href="../../../index.html#myCarousel">Groups</a></li>
-                    </ul>
-                </div>
-            </nav>
-            </div>
-            <h1><strong>Procedure of the website</strong></h1>
-            <p>Here will be explained how the game works and what procedure the main website has. 
-                First there is an introduction at the top, what the idea of this website is and what we want to achieve with it.
-            </p>
-            <br>
+<head>
+    <meta name="Florian Hagmair" content="Procedure ot the website">
+    <title>Procedure of the world cup system</title>
+    <link rel="icon" href="../../Images/Logo.PNG" type="image/png" style="width: 16px; height: 16px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Procedure_of_the_website.css">
+</head>
 
-            <h2>History</h2>
-            <p>The website '<a href="../Julian Kapl/History.html">History</a>' writes about the history of all world cups before.
-                It is written about the start of the first world cup and in which country.
-                The question will also be clarified who won the first world cup in the history and there is then a list of the following winners and top scorers of each world cup.
-                It is also written about the favourit teams and how many timey they have won the world cup.
-                At the end of the website it is written about the records set by various teams but also about the special players records.</p>
-            <br>
-            <h2>Procedure of the world cup system</h2>
-            <p>The website '<a href="../David_Pröller/Procedure of the world cup system.html">Procedure of the world cup system</a>' writes about the system of a world cup.
-            There is explained how the group stage system works and how the points are distributed after a win, a lose or a draw.
-            It is also be written how long a match go and the question is be answerd how many teams are playing in the world cup und how many teams are in ech group.
-            Also it is written about the system of the knockout round because there are differnt rules as in the group stage.
-            The most interestin question what you get for the victory and how much money is it will be answered on the website below.
-            You can click on the link above to get more detailed informations about the questions here.</p>
-            <br>
-            <p>After all these pages the tree of the world cup is listed and there are some nice informations.</p>
-            <br>
-            
-            <h2>Tree of the world cup</h2>
-            <p>The tree of the world cup is a overview with the whole groups and their teams.
-            This way you can see perfectly which country is with whom in a group.
-            A nice feature is that you can click on any team you want and then you will get the country's squad with all players.
-            Then the game begins. First you can see all game encounters and then you can submit your own tip for each game.</p>
-            <br>
-            <table>
-                <tr>
-                    <th>tipped game result</th>
-                    <th id="listCenter">Footkicker coins</th>
-                </tr>
-                <tr>
-                    <td>correct</td>
-                    <td id="listCenter">5</td>
-                </tr>
-                <tr>
-                    <td>one goal away</td>
-                    <td id="listCenter">3</td>
-                </tr>
-                <tr>
-                    <td>false but team correct</td>
-                    <td id="listCenter">1</dt>
-                </tr>
-                <tr>
-                    <td>false and team false</td>
-                    <td id="listCenter">0</td>
-                </tr>
-            </table>
-            <h2>Submit your own tip</h2>
-            <div class="tableMargin">
-                <p>You can click on a game you want and then you can type in your result as you think they are playing.
-                    After you have submitted your own tip, the game will be simulated an the result is displayed.
-                    This allows you to see whether the team you have bet on has won with your score or you have submitted a wrong tip.
-                    If you have made a correct tip and your team has won, you will receive a reward.
-                    The reward will be some footkicker coins which you can see at the end of the world cup
-                    how well you have tipped and you can compare your results with other people.
-                    The number of footkicker coins you get depends on various factors.</p>
+<body>
+    <nav class="navbar navbar-dark fixed-top" style="background-color: rgb(51,51,51);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../../index.html" id="logoName">Footkicker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="offcanvas offcanvas-end" style="background-color: rgb(25,25,25);" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Footkicker</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <br>
-            <h2>About us</h2>
-            <p>At the end of our website all members of Footkicker are listed and descriped. For further questions, our 
-                email accounts are also linked and we are always available for your questions.
-            </p>
-            <br><br><br>
-    </body>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="offnavbar">
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../index.html#AboutUs" id="offnavbarColor">About Us</a>
+                  <a class="nav-link" href="../Game/src/gameIndex.html" id="offnavbarColor">Bet</a>
+                  <a class="nav-link" href="../../../index.html#myCarousel" id="offnavbarColor">Groups</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="offnavbarColor" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="../Julian Kapl/History.html" id="offnavbarColor">History</a></li>
+                    <li><a class="dropdown-item" href="../David_Pröller/Procedure of the world cup system.html" id="offnavbarColor">Procedure of the world cup</a></li>
+                    <li><a class="dropdown-item" href="../Florian_Hagmair/Procedure_of_the_website.html" id="offnavbarColor">Procedure of the website</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br>
+      <h1><strong>Procedure of the website</strong></h1>
+      <p>Here will be explained how the game works and what procedure the main website has. 
+          First there is an introduction at the top, what the idea of this website is and what we want to achieve with it.
+      </p>
+      <br>
+
+      <h2>History</h2>
+      <p>The website '<a href="../Julian Kapl/History.html">History</a>' writes about the history of all world cups before.
+          It is written about the start of the first world cup and in which country.
+          The question will also be clarified who won the first world cup in the history and there is then a list of the following winners and top scorers of each world cup.
+          It is also written about the favourit teams and how many timey they have won the world cup.
+          At the end of the website it is written about the records set by various teams but also about the special players records.</p>
+      <br>
+      <h2>Procedure of the world cup system</h2>
+      <p>The website '<a href="../David_Pröller/Procedure of the world cup system.html">Procedure of the world cup system</a>' writes about the system of a world cup.
+      There is explained how the group stage system works and how the points are distributed after a win, a lose or a draw.
+      It is also be written how long a match go and the question is be answerd how many teams are playing in the world cup und how many teams are in ech group.
+      Also it is written about the system of the knockout round because there are differnt rules as in the group stage.
+      The most interestin question what you get for the victory and how much money is it will be answered on the website below.
+      You can click on the link above to get more detailed informations about the questions here.</p>
+      <br>
+      <p>After all these pages the tree of the world cup is listed and there are some nice informations.</p>
+      <br>
+      
+      <h2>Tree of the world cup</h2>
+      <p>The tree of the world cup is a overview with the whole groups and their teams.
+      This way you can see perfectly which country is with whom in a group.
+      A nice feature is that you can click on any team you want and then you will get the country's squad with all players.
+      Then the game begins. First you can see all game encounters and then you can submit your own tip for each game.</p>
+      <br>
+      <table>
+          <tr>
+              <th>tipped game result</th>
+              <th id="listCenter">Footkicker coins</th>
+          </tr>
+          <tr>
+              <td>correct</td>
+              <td id="listCenter">5</td>
+          </tr>
+          <tr>
+              <td>one goal away</td>
+              <td id="listCenter">3</td>
+          </tr>
+          <tr>
+              <td>false but team correct</td>
+              <td id="listCenter">1</dt>
+          </tr>
+          <tr>
+              <td>false and team false</td>
+              <td id="listCenter">0</td>
+          </tr>
+      </table>
+      <h2>Submit your own tip</h2>
+      <div class="tableMargin">
+          <p>You can click on a game you want and then you can type in your result as you think they are playing.
+              After you have submitted your own tip, the game will be simulated an the result is displayed.
+              This allows you to see whether the team you have bet on has won with your score or you have submitted a wrong tip.
+              If you have made a correct tip and your team has won, you will receive a reward.
+              The reward will be some footkicker coins which you can see at the end of the world cup
+              how well you have tipped and you can compare your results with other people.
+              The number of footkicker coins you get depends on various factors.</p>
+      </div>
+      <br>
+      <h2>About us</h2>
+      <p>At the end of our website all members of Footkicker are listed and descriped. For further questions, our 
+          email accounts are also linked and we are always available for your questions.
+      </p><br><br><br><br><br><br>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
 </html>

@@ -4,18 +4,31 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     hyphens: auto;
 }
-.NAVBAR{
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    font-size: 190%;
-}
 p{
     font-size: 140%;
     margin-left: 7.1%;
     margin-right: 10%;
     hyphens: auto;
+}
+#logoName {
+    color: rgb(38, 142, 206);
+    font-size: 180%;
+    margin-left: 6.4%;
+    font-weight: bold;
+}
+#offcanvasNavbarLabel {
+    color: rgb(38, 142, 206);
+    font-weight: bold;
+    background-color: dark;
+}
+#offnavbarColor:hover{
+    background-color: rgb(51,51,51);
+}
+.dropdown-menu {
+    background-color: rgb(30,30,30);
+}
+#offnavbarColor {
+    color: white;
 }
 h2 {
     margin-left: 7%;
