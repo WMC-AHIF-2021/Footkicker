@@ -24,8 +24,25 @@ a{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#tasküs{
+#logoName {
     color: rgb(38, 142, 206);
+    font-size: 180%;
+    margin-left: 6.4%;
+    font-weight: bold;
+}
+#offcanvasNavbarLabel {
+    color: rgb(38, 142, 206);
+    font-weight: bold;
+    background-color: dark;
+}
+#offnavbarColor:hover{
+    background-color: rgb(51,51,51);
+}
+.dropdown-menu {
+    background-color: rgb(30,30,30);
+}
+#offnavbarColor {
+    color: white;
 }
 li{
     list-style: none;
