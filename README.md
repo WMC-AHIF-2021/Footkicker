@@ -52,14 +52,14 @@
 <h2>Project Members</h2>
     <ul style="list-style-type: circle;";>
         <li>Florian Hagmair (Leader)</li>
-        <li>David Pröller</li>
+        <li>David Proeller</li>
         <li>Julian Kapl</li>
     </ul>
 <h2>Tasks of each Member</h2>
 <div class="tasks">
 <ul style="list-style-type: circle;";>
     <li><u>Florian Hagmair:</u> He is responsible for the course of the website.<br> How does this website work? In which program-languages is Footkicker written? What is the idea behind this project?</li>
-    <li><u>David Pröller:</u> He is responsible for the course of the world cup.<br> What happens when some teams have the same points in the same group? How is the system behind the world cup?</li>
+    <li><u>David Proeller:</u> He is responsible for the course of the world cup.<br> What happens when some teams have the same points in the same group? How is the system behind the world cup?</li>
     <li><u>Julian Kapl:</u> He is responsible for the history of all world cup's.<br> When started the first world cup? Which teams are the favourites? How is the history behind the all world cups?</li>
 </div>
 

@@ -11,6 +11,9 @@ p{
     margin-right: 10%;
     hyphens: auto;
 }
+#xbutton {
+    background-color: white;
+}
 #logoName {
     color: rgb(38, 142, 206);
     font-size: 180%;

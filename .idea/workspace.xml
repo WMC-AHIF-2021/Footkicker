@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/David_Pröller/Procedure of the world cup system.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/David_Pröller/Procedure of the world cup system.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/David_Pröller/Turnierbaum.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/Turnierbaum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/David_Pröller/worldcuptrophy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/worldcuptrophy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Julian Kapl/History.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Julian Kapl/History.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Julian Kapl/stylehistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Julian Kapl/stylehistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Aegypten.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Aegypten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Argentinien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Argentinien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Australien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Australien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Belgien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Belgien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Brasilien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Brasilien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Costa Rica.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Costa Rica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Daenemark.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Daenemark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Deutschland.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Deutschland.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/England.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/England.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Frankreich.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Frankreich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Iran.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Iran.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Island.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Japan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Japan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Kolumbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Kolumbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Kroatien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Kroatien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Marokko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Marokko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Mexiko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Mexiko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Nigeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Nigeria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Panama.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Panama.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Peru.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Peru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Polen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Polen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Portugal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Portugal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Russland.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Russland.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Saudi-Arabien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Saudi-Arabien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Schweden.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Schweden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Schweiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Schweiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Senegal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Senegal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Serbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Serbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Spanien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Spanien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Suedkorea.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Suedkorea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Tunesien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Tunesien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Uruguay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Uruguay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="294SNYOinIXKfhahsb673Hiu2eb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="" />
+      <created>1652370831445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652370831445</updated>
+      <workItem from="1652370835013" duration="80000" />
+      <workItem from="1652705650619" duration="1192000" />
+      <workItem from="1652770035695" duration="23000" />
+      <workItem from="1652770062346" duration="403000" />
+      <workItem from="1652770646820" duration="430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
