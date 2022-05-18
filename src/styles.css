@@ -112,8 +112,9 @@ h4{
     color: rgb(38, 142, 206);
     font-size: 280%;
 }
-#gruppenÜberschrift{
+#gruppenueberschrift{
     font-size: 280%;
+    margin-left: 40%;
 }
 @media only screen and (max-width: 600px) {
     p{
