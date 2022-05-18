@@ -4,9 +4,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     hyphens: auto;
 }
-#xbutton {
-    background-color: white;
-}
 p{
     font-size: 140%;
     margin-left: 7.1%;
@@ -39,7 +36,7 @@ h2 {
 }
 h1,h2{
     color: rgb(38, 142, 206);
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1{
     margin-left: 7%;
@@ -84,4 +81,27 @@ tr:hover {
     width: 20%;
     margin-right: 10%;
     margin-left: 1%;
+}
+@media only screen and (max-width: 600px){
+
+    .TurnierbaumPicture{
+        width: 60%;
+        float:right;
+        color: white;
+        margin-top: -55%;
+        margin-right: 2.2%;
+        margin-left: 1%;
+    }
+    #pointSystem{
+        width: 30%;
+        color: white;
+        margin-left: 2%;
+    }
+    .WorldCupTrophyPicture{
+        float:right;
+        width: 50%;
+        margin-top: -15%;
+        margin-right: 2%;
+        margin-left: 1%;
+    }
 }

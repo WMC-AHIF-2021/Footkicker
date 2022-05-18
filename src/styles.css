@@ -6,9 +6,6 @@ body{
 a{
     text-decoration: none;
 }
-#xbutton {
-    background-color: white;
-}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -96,35 +93,76 @@ img{
     margin-top: -17%;
 }
 h1{
-    text-align: center;
-    color: rgb(38, 142, 206);
-    font-size: 500%;
-}
-h2{
     color: rgb(38, 142, 206);
     margin-left: 3.5%;
     font-size: 320%;
 }
-h3{
+h2{
     margin-left: 3.5%;
     color: rgb(38, 142, 206);
     font-size: 280%;
 }
+h3{
+    margin-left: 4.5%;
+    color: rgb(38, 142, 206);
+    font-size: 280%;
+}
 h4{
-    margin-left: 4.5%;
+    margin-left: 4.8%;
     color: rgb(38, 142, 206);
-    font-size: 280%;
-}
-h5{
-    margin-left: 4.5%;
-    color: rgb(38, 142, 206);
-    font-size: 280%;
-}
-h6{
-    color: rgb(38, 142, 206);
-    margin-left: 4.5%;
     font-size: 280%;
 }
 #gruppenÜberschrift{
     font-size: 280%;
+}
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 140%;
+    }
+    .h1,h2,h3 {
+        font-size: 240%;
+    }
+    .wm2018{
+        margin-left: 15%;
+        height: 55%;
+        width: 72%;
+    }
+    .textflo{
+        margin-right: 26.5%;
+        margin-left: -1%;
+        font-variant-position: inherit;
+    }
+    .flo{
+        margin-left: 67%;
+        margin-top: -200%;
+        height: 45%;
+        width: 33%;
+    }
+    .textdavid{
+        margin-top: 2%;
+        margin-left: -1%;
+        margin-right: 26%;
+
+    }
+    .david{
+        margin-left: 68%;
+        margin-top: -130%;
+        height: 45%;
+        width: 33%;
+    }
+    .textjulian{
+        margin-top: 5%;
+        margin-right:20%;
+        margin-left: -1%;
+    }
+    .julian{
+        margin-left: 67%;
+        margin-top: -120%;
+        height: 45%;
+        width: 33%;
+    }
+    #gruppenueberschrift{
+        font-size: 90%;
+        margin-left: 33%;
+    }
 }
