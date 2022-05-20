@@ -209,8 +209,8 @@ function writeTeamsInBetArea(data){
     let url1 = "./resources/icon/" + pic1;
     let pic2 = `${data[gameId].away_team_country}.png`;
     let url2 = "./resources/icon/" + pic2;
-    team2.innerHTML = '<img class="flag" src=' + url2 +'/>';
-    team1.innerHTML = '<img class="flag" src=' + url1 + '/>';
+    team2.innerHTML = '<img class="flag" src=' + url2 +'>';
+    team1.innerHTML = '<img class="flag" src=' + url1 + '>';
     header.innerText = data[gameId].home_team_country + " vs " + data[gameId].away_team_country;
     punkte.innerHTML = "Points: " + pointsScore;
 }
