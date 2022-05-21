@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +26,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ts.external.directory.path" value="C:\Users\Florian\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "C:\\Users\\dap03\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="gameIndex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Footkicker/src/Html/Game/src/gameIndex.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.gameIndex.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,6 +61,7 @@
       <workItem from="1653061065059" duration="5283000" />
       <workItem from="1653157448646" duration="26000" />
       <workItem from="1653157479451" duration="50000" />
+      <workItem from="1653158061641" duration="6844000" />
     </task>
     <servers />
   </component>

@@ -174,10 +174,11 @@ let goals1 = null;
 let goals2 = null;
 let winnerCheck1 = null;
 let winnerCheck2 = null;
-let done = null;
 let punkte = null;
 let pointsScore = 0;
 let button = null;
+let result = null;
+let arr = null;
 function writeStartSiteRoundOf16() {
     punkte.innerHTML = "Points: " + pointsScore;
     index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 1</td></img><img class="indexTeam2" src="./resources/icon/Argentina.png"/></img>';
@@ -211,6 +212,7 @@ function writeTeamsInBetArea(data) {
     punkte.innerHTML = "Points: " + pointsScore;
 }
 function startGame(data) {
+    result = document.getElementById('result');
     writeTeamsInBetArea(data);
     let submitBtn = document.getElementById("submitButton");
     let goBackButton = document.getElementById("goBackButton");
@@ -222,13 +224,19 @@ function startGame(data) {
         goals2 = document.getElementById("goals2");
         winnerCheck1 = document.getElementById("winnerCheck1");
         winnerCheck2 = document.getElementById("winnerCheck2");
-        done = document.getElementById("done");
-        compareResults(data);
-        writeTeamsInBetArea(data);
+        if (table.classList.contains("hidden")) {
+            compareResults(data);
+            startOver();
+        }
     });
 }
 function compareResults(data) {
-    if (winnerCheck1.checked === true && winnerCheck2.checked === false && data[gameId].winner.value === data[gameId].home_team.country.value
+    //result innerHTML machen damit man farbe änern kann
+    let one = 1;
+    if (arr[gameId].toString() === one.toString()) {
+        alert("You already tipped on that game!");
+    }
+    else if (winnerCheck1.checked === true && winnerCheck2.checked === false && data[gameId].winner.value === data[gameId].home_team.country.value
         || winnerCheck1.checked === false && winnerCheck2.checked === true && data[gameId].winner.value === data[gameId].away_team.country.value) {
         if (goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString() && winnerCheck1.checked === true && winnerCheck2.checked === false
             || goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString() && winnerCheck1.checked === false && winnerCheck2.checked === true) {
@@ -273,8 +281,15 @@ function compareResults(data) {
     else {
         alert('You lost!');
     }
+    arr[gameId] = 1;
 }
 function startOver() {
+    if (goals1 != null) {
+        goals1.value = null;
+        goals2.value = null;
+        winnerCheck1.checked = false;
+        winnerCheck2.checked = false;
+    }
     table.classList.remove("hidden");
     betArea.classList.add("hidden");
 }
@@ -294,6 +309,11 @@ function init() {
     team2 = document.getElementById('team2');
     punkte = document.getElementById('punkte');
     button = document.getElementById('btn betButton');
+    arr = new Array(64);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = 0;
+    }
+    console.log(arr[0]);
     readTextFile("https://world-cup-json-2018.herokuapp.com/matches", function (text) {
         let data = JSON.parse(text);
         console.log(data[10].weather.temp_celsius);
