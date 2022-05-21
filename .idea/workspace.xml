@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/resources/icon/Argentinia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/resources/icon/Argentina.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/resources/icon/Columbia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/resources/icon/Colombia.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +24,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Schule/WMC/Footkicker",
-    "ts.external.directory.path": "C:\\Users\\dap03\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="C:\Users\Florian\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +45,8 @@
       <workItem from="1652770646820" duration="430000" />
       <workItem from="1652893744316" duration="402000" />
       <workItem from="1653061065059" duration="5283000" />
+      <workItem from="1653157448646" duration="26000" />
+      <workItem from="1653157479451" duration="50000" />
     </task>
     <servers />
   </component>
