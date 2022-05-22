@@ -186,50 +186,63 @@ function startGame(data): void {
 function compareResults(data){
     //result innerHTML machen damit man farbe änern kann
     let one = 1;
+    let homegoals = parseInt(data[gameId].home_team.goals).toString();
+    let awaygoals = parseInt(data[gameId].away_team.goals).toString();
     if(arr[gameId].toString() === one.toString()){
         alert("You already tipped on that game!");
-    }
-    else if(winnerCheck1.checked === true && winnerCheck2.checked === false && data[gameId].winner.value === data[gameId].home_team.country.value
-        || winnerCheck1.checked === false && winnerCheck2.checked === true && data[gameId].winner.value === data[gameId].away_team.country.value){
-        if(goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString() && winnerCheck1.checked === true && winnerCheck2.checked === false
-            || goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString() && winnerCheck1.checked === false && winnerCheck2.checked === true){
-            alert('You won! 5 points');
-            pointsScore += 5;
-        }
-        else {
-            //if (data[gameId].winner.value === data[gameId].home_team.country.value && (winnerCheck1.checked === true && winnerCheck2.checked === false) && ((goals1.value - 1).toString() === data[gameId].home_team.goals.toString() || (goals1.value + 1).toString() === data[gameId].home_team.goals.toString())
-            let tolerancePositiv:number = parseInt(data[gameId].home_team.goals);
-            let toleranceNegativ:number = parseInt(data[gameId].home_team.goals);
-            tolerancePositiv++;
-            toleranceNegativ--;
-
-            if ((winnerCheck1.checked === true && winnerCheck2.checked === false) && ((goals1.value.toString() === tolerancePositiv.toString()) || (goals1.value.toString() === toleranceNegativ.toString()))) {
-                alert('You won! 3 points');
-                pointsScore += 3;
-            }
-            else if ((winnerCheck1.checked === false && winnerCheck2.checked === true) && ((goals2.value.toString() === tolerancePositiv.toString()) || (goals2.value.toString() === toleranceNegativ.toString()))) {
-                alert('Not the correct score but correct team! 3 points a');
-                pointsScore += 3;
-            }else if ((winnerCheck1.checked === true && winnerCheck2.checked === false) && ((goals1.value.toString() === tolerancePositiv.toString()) || (goals1.value.toString() === toleranceNegativ.toString()))) {
-                alert('Not the correct score but correct team! 3 points b');
-                pointsScore += 3;
-            } else if(winnerCheck1.checked === true && winnerCheck2.checked === false && parseInt(data[gameId].home_team.goals) > parseInt(data[gameId].away_team.goals)) {
-                alert('Wrong result but correct team! 1 points');
-                pointsScore += 1;
-            } else if(winnerCheck1.checked === false && winnerCheck2.checked === true && parseInt(data[gameId].home_team.goals) < parseInt(data[gameId].away_team.goals))  {
-                alert('Wrong result but correct team! 1 points');
-                pointsScore += 1;
+    } else {
+        if (data[gameId].winner === data[gameId].home_team.country && winnerCheck1.checked === true && winnerCheck2.checked === false) {
+            if (goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString()) {
+                alert('5 points! Correct result!');
+                pointsScore += 5;
             } else {
-                alert('Wrong result and wrong team! 0 points');
+                let tolerancePositiv:number = parseInt(data[gameId].home_team.goals);
+                let toleranceNegativ:number = parseInt(data[gameId].home_team.goals);
+                tolerancePositiv++;
+                toleranceNegativ--;
+                if ((goals1.value.toString() === tolerancePositiv.toString() || goals1.value.toString() === toleranceNegativ.toString()) && goals2.value === data[gameId].away_team.goals.toString()) {
+                    alert(`3 points! One goal away of the correct result ${homegoals}:${awaygoals} .`);
+                    pointsScore += 3;
+                } else if ((goals2.value.toString() === tolerancePositiv || goals2.value.toString() === toleranceNegativ) && goals1.value === data[gameId].home_team.goals.toString()) {
+                    alert(`3 points! One goal away of the correct result ${homegoals}:${awaygoals} .`);
+                    pointsScore += 3;
+                } else if (winnerCheck1.checked === true && winnerCheck2.checked === false) {
+                    alert('1 point! Wrong result but you bet on the right team!');
+                    pointsScore += 1;
+                }
             }
-            /*} else if (data[gameId].winner.value === data[gameId].away_team.country.value && (winnerCheck1.checked === false && winnerCheck2.checked === true) && ((goals2.value - 1) === data[gameId].home_team.goals || (goals2.value + 1) === data[gameId].home_team.goals)) {
-                alert('You won! 3 points');
-                pointsScore += 3;
-            }*/
+        }else if (winnerCheck1.checked === false && winnerCheck2.checked === true && data[gameId].winner === data[gameId].home_team.country) {
+            alert('0 points! The score does not match your bet team!');
         }
-    }
-    else{
-        alert('You lost!');
+        else
+        {
+            if (data[gameId].winner === data[gameId].away_team.country && winnerCheck1.checked === false && winnerCheck2.checked === true) {
+                if (goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString()) {
+                    alert('5 points! Correct result!');
+                    pointsScore += 5;
+                } else {
+                    let tolerancePositiv:number = parseInt(data[gameId].home_team.goals);
+                    let toleranceNegativ:number = parseInt(data[gameId].home_team.goals);
+                    tolerancePositiv++;
+                    toleranceNegativ--;
+                    if ((goals2.value.toString() === tolerancePositiv.toString() || goals2.value.toString() === toleranceNegativ.toString()) && goals1.value === data[gameId].home_team.goals.toString()) {
+                        alert(`3 points! One goal away of the correct result ${homegoals}:${awaygoals} .`);
+                        pointsScore += 3;
+                    } else if ((goals2.value.toString() === tolerancePositiv.toString() || goals2.value.toString() === toleranceNegativ.toString()) && goals2.value === data[gameId].away_team.goals.toString()) {
+                        alert(`3 points! One goal away of the correct result ${homegoals}:${awaygoals} .`);
+                        pointsScore += 3;
+                    } else if (winnerCheck1.checked === false && winnerCheck2.checked === true) {
+                        alert('1 point! Wrong result but you bet on the right team!');
+                        pointsScore += 1;
+                    }
+                }
+            } else if (winnerCheck2.checked === false && winnerCheck1.checked === true && data[gameId].winner === data[gameId].away_team.country) {
+                alert('0 points! The score does not match your bet team!');
+            }
+            else {
+                alert('0 points! You bet on the wrong score and team!');
+            }
+        }
     }
     arr[gameId] = 1;
 }
