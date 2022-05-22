@@ -3,6 +3,9 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+.linkeEinrückung {
+    margin-left: 2.5%;
+}
 a{
     text-decoration: none;
 }
@@ -48,7 +51,7 @@ li{
     list-style: none;
 }
 p{
-    font-size: 250%;
+    font-size: 190%;
     text-align: left;
     margin-left: 4.5%;
     margin-right: 8%;
@@ -68,21 +71,22 @@ img{
 }
 #AboutUs{
     margin-top: 2%;
+    margin-left: 1%;
 }
 .flo{
     margin-left: 80%;
-    margin-top: -18%;
+    margin-top: -22.5%;
 }
 .textflo{
     margin-right: 20%;
 }
 .david{
-    margin-left: 2%;
-    margin-top: -17%;
+    margin-left: 3.5%;
+    margin-top: -20%;
 }
 .textdavid{
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 .textjulian{
     margin-top: 5%;
@@ -117,6 +121,9 @@ h4{
     margin-left: 40%;
 }
 @media only screen and (max-width: 600px) {
+    .linkeEinrückung {
+        margin-left: 5%;
+    }
     p{
         font-size: 140%;
     }
@@ -162,8 +169,5 @@ h4{
         height: 45%;
         width: 33%;
     }
-    #gruppenueberschrift{
-        font-size: 90%;
-        margin-left: 33%;
-    }
+
 }
