@@ -147,3 +147,69 @@ td{
     text-decoration: underline;
     color: white;
 }
+#goBackButton{
+    background-color: green;
+    margin-left: 31%;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        margin-top: 1%;
+    }
+    #punkte{
+        margin-top: 2%;
+        margin-left: 40%;
+    }
+    td{
+        font-size: 150%;
+    }
+    .betButton{
+        width: 110%;
+        height: 90%;
+        background-color: gold;
+        margin-right: -290%;
+        margin-top: 20%;
+    }
+    .indexTeam1{
+        margin-left: -87%;
+        width: 40%;
+        height: 90%;
+    }
+    .marginRight {
+        margin-right: 5%;
+    }
+    #winnerCheck1 {
+        width: 12%;
+        height: 100%;
+    }
+    #winnerCheck2 {
+        width: 12%;
+        height: 100%;
+    }
+    .indexTeam2{
+        margin-right: -75%;
+        width: 40%;
+        height: 90%;
+    }
+    #goals2 {
+        width: 30%;
+        height: 80%;
+    }
+
+    #goals1 {
+        width: 30%;
+        height: 80%;
+    }
+    #submitButton{
+        margin-left: 5%;
+    }
+    #goBackButton {
+        font-size: 69%;
+        width: 200%;
+        height: 105%;
+        margin-left: -49%;
+    }
+    h3{
+        margin-left: 2%;
+    }
+}
