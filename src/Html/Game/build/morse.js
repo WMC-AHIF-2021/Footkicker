@@ -21,16 +21,75 @@ let pointsScore = 0;
 let button = null;
 let result = null;
 let arr = null;
+let index1Btn = null;
+let index2Btn = null;
+let index3Btn = null;
+let index4Btn = null;
+let index5Btn = null;
+let index6Btn = null;
+let index7Btn = null;
+let index8Btn = null;
+let roundOf = null;
+let stageCounter = 0;
 function writeStartSiteRoundOf16() {
+    roundOf.innerText = "Round of 16";
     punkte.innerHTML = "Points: " + pointsScore;
-    index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 1</td></img><img class="indexTeam2" src="./resources/icon/Argentina.png"/></img>';
-    index2.innerHTML = '<img class="indexTeam1" src="./resources/icon/Uruguay.png"/><td>Game 2</td></img><img class="indexTeam2" src="./resources/icon/Portugal.png"/></img>';
-    index3.innerHTML = '<img class="indexTeam1" src="./resources/icon/Spain.png"/><td>Game 3</td></img><img class="indexTeam2" src="./resources/icon/Russia.png"/></img>';
-    index4.innerHTML = '<img class="indexTeam1" src="./resources/icon/Croatia.png"/><td>Game 4</td></img><img class="indexTeam2" src="./resources/icon/Denmark.png"/></img>';
-    index5.innerHTML = '<img class="indexTeam1" src="./resources/icon/Brazil.png"/><td>Game 5</td></img><img class="indexTeam2" src="./resources/icon/Mexico.png"/></img>';
-    index6.innerHTML = '<img class="indexTeam1" src="./resources/icon/Belgium.png"/><td>Game 6</td></img><img class="indexTeam2" src="./resources/icon/Japan.png"/></img>';
-    index7.innerHTML = '<img class="indexTeam1" src="./resources/icon/Sweden.png"/><td>Game 7</td></img><img class="indexTeam2" src="./resources/icon/Switzerland.png"/></img>';
-    index8.innerHTML = '<img class="indexTeam1" src="./resources/icon/Colombia.png"/><td>Game 8</td></img><img class="indexTeam2" src="./resources/icon/England.png"/></img>';
+    index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 01</td></img><img class="indexTeam2" src="./resources/icon/Argentina.png"/></img>';
+    index1Btn.innerHTML = '<button type="button" class="btn betButton" id="48">Bet</button>';
+    index2.innerHTML = '<img class="indexTeam1" src="./resources/icon/Uruguay.png"/><td>Game 02</td></img><img class="indexTeam2" src="./resources/icon/Portugal.png"/></img>';
+    index2Btn.innerHTML = '<button type="button" class="btn betButton" id="49">Bet</button>';
+    index3.innerHTML = '<img class="indexTeam1" src="./resources/icon/Spain.png"/><td>Game 03</td></img><img class="indexTeam2" src="./resources/icon/Russia.png"/></img>';
+    index3Btn.innerHTML = '<button type="button" class="btn betButton" id="50">Bet</button>';
+    index4.innerHTML = '<img class="indexTeam1" src="./resources/icon/Croatia.png"/><td>Game 04</td></img><img class="indexTeam2" src="./resources/icon/Denmark.png"/></img>';
+    index4Btn.innerHTML = '<button type="button" class="btn betButton" id="51">Bet</button>';
+    index5.innerHTML = '<img class="indexTeam1" src="./resources/icon/Brazil.png"/><td>Game 05</td></img><img class="indexTeam2" src="./resources/icon/Mexico.png"/></img>';
+    index5Btn.innerHTML = '<button type="button" class="btn betButton" id="52">Bet</button>';
+    index6.innerHTML = '<img class="indexTeam1" src="./resources/icon/Belgium.png"/><td>Game 06</td></img><img class="indexTeam2" src="./resources/icon/Japan.png"/></img>';
+    index6Btn.innerHTML = '<button type="button" class="btn betButton" id="53">Bet</button>';
+    index7.innerHTML = '<img class="indexTeam1" src="./resources/icon/Sweden.png"/><td>Game 07</td></img><img class="indexTeam2" src="./resources/icon/Switzerland.png"/></img>';
+    index7Btn.innerHTML = '<button type="button" class="btn betButton" id="54">Bet</button>';
+    index8.innerHTML = '<img class="indexTeam1" src="./resources/icon/Colombia.png"/><td>Game 08</td></img><img class="indexTeam2" src="./resources/icon/England.png"/></img>';
+    index8Btn.innerHTML = '<button type="button" class="btn betButton" id="55">Bet</button>';
+}
+function writeStartSiteRoundOf8() {
+    roundOf.innerText = "Round of 8";
+    punkte.innerHTML = "Points: " + pointsScore;
+    index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/Uruguay.png"/><td>Game 09</td></img><img class="indexTeam2" src="./resources/icon/France.png"/></img>';
+    index1Btn.innerHTML = '<button type="button" class="btn betButton" id="56">Bet</button>';
+    index2.innerHTML = '<img class="indexTeam1" src="./resources/icon/Brazil.png"/><td>Game 10</td></img><img class="indexTeam2" src="./resources/icon/Belgium.png"/></img>';
+    index2Btn.innerHTML = '<button type="button" class="btn betButton" id="57">Bet</button>';
+    index3.innerHTML = '<img class="indexTeam1" src="./resources/icon/Sweden.png"/><td>Game 11</td></img><img class="indexTeam2" src="./resources/icon/England.png"/></img>';
+    index3Btn.innerHTML = '<button type="button" class="btn betButton" id="58">Bet</button>';
+    index4.innerHTML = '<img class="indexTeam1" src="./resources/icon/Russia.png"/><td>Game 12</td></img><img class="indexTeam2" src="./resources/icon/Croatia.png"/></img>';
+    index4Btn.innerHTML = '<button type="button" class="btn betButton" id="59">Bet</button>';
+    index5.innerHTML = "";
+    index5Btn.innerHTML = "";
+    index6.innerHTML = "";
+    index6Btn.innerHTML = "";
+    index7.innerHTML = "";
+    index7Btn.innerHTML = "";
+    index8.innerHTML = "";
+    index8Btn.innerHTML = "";
+}
+function writeStartSiteSemiFinals() {
+    roundOf.innerText = "Semi-Finals";
+    punkte.innerHTML = "Points: " + pointsScore;
+    index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 13</td></img><img class="indexTeam2" src="./resources/icon/Belgium.png"/></img>';
+    index1Btn.innerHTML = '<button type="button" class="btn betButton" id="60">Bet</button>';
+    index2.innerHTML = '<img class="indexTeam1" src="./resources/icon/Croatia.png"/><td>Game 14</td></img><img class="indexTeam2" src="./resources/icon/England.png"/></img>';
+    index2Btn.innerHTML = '<button type="button" class="btn betButton" id="61">Bet</button>';
+    index3.innerHTML = "";
+    index3Btn.innerHTML = "";
+    index4.innerHTML = "";
+    index4Btn.innerHTML = "";
+}
+function writeStartSiteFinal() {
+    roundOf.innerText = "Finals";
+    punkte.innerHTML = "Points: " + pointsScore;
+    index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 15</td></img><img class="indexTeam2" src="./resources/icon/Croatia.png"/></img>';
+    index1Btn.innerHTML = '<button type="button" class="btn betButton" id="63">Bet</button>';
+    index2.innerHTML = '<img class="indexTeam1" src="./resources/icon/Belgium.png"/><td>Game 16</td></img><img class="indexTeam2" src="./resources/icon/England.png"/></img>';
+    index2Btn.innerHTML = '<button type="button" class="btn betButton" id="62">Bet</button>';
 }
 function readTextFile(file, callback) {
     let rawFile = new XMLHttpRequest();
@@ -69,6 +128,45 @@ function startGame(data) {
         if (table.classList.contains("hidden")) {
             compareResults(data);
             startOver();
+            if (arr[48] === 1 && arr[49] === 1 && arr[50] === 1 && arr[51] === 1 && arr[52] === 1 && arr[53] === 1 && arr[54] === 1 && arr[55] === 1) {
+                stageCounter += 1;
+                if (arr[56] === 1 && arr[57] === 1 && arr[58] === 1 && arr[59] === 1) {
+                    if (arr[60] === 1 && arr[61] === 1) {
+                        if (arr[62] === 1 && arr[63] === 1) {
+                            alert('You completed all games from the knockout-stage');
+                            alert('You will now return to the start site');
+                            window.location.href = '../../../../../index.html';
+                        }
+                        else {
+                            if (stageCounter === 13) {
+                                alert('You completed all games from the semi-finals');
+                                alert('You now advance to the final und little final');
+                            }
+                            stageCounter += 1;
+                            writeStartSiteFinal();
+                        }
+                    }
+                    else {
+                        if (stageCounter === 9) {
+                            alert('You completed all games from the round of 8');
+                            alert('You now advance to the semi-finals');
+                        }
+                        stageCounter += 1;
+                        writeStartSiteSemiFinals();
+                    }
+                }
+                else {
+                    if (stageCounter === 1) {
+                        alert('You completed all games from the round of 16');
+                        alert('You now advance to the round of 8');
+                    }
+                    stageCounter += 1;
+                    writeStartSiteRoundOf8();
+                }
+            }
+            else {
+                writeStartSiteRoundOf16();
+            }
         }
     });
 }
@@ -151,6 +249,15 @@ function init() {
     team2 = document.getElementById('team2');
     punkte = document.getElementById('punkte');
     button = document.getElementById('btn betButton');
+    index1Btn = document.getElementById('index1Btn');
+    index2Btn = document.getElementById('index2Btn');
+    index3Btn = document.getElementById('index3Btn');
+    index4Btn = document.getElementById('index4Btn');
+    index5Btn = document.getElementById('index5Btn');
+    index6Btn = document.getElementById('index6Btn');
+    index7Btn = document.getElementById('index7Btn');
+    index8Btn = document.getElementById('index8Btn');
+    roundOf = document.getElementById('roundOf');
     arr = new Array(64);
     for (let i = 0; i < arr.length; i++) {
         arr[i] = 0;
@@ -160,6 +267,7 @@ function init() {
         let data = JSON.parse(text);
         console.log(data[10].weather.temp_celsius);
         writeStartSiteRoundOf16();
+        //writeStartSiteRoundOf8();
         betArea.classList.add("hidden");
         document.getElementById("betTable").addEventListener("click", function (e) {
             if (e.target.type == "button") {
