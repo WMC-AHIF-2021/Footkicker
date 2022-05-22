@@ -32,6 +32,9 @@ body {
     margin-left: 6.4%;
     font-weight: bold;
 }
+#skipBtn{
+    margin-left: 83%;
+}
 #offcanvasNavbarLabel {
     color: rgb(38, 142, 206);
     font-weight: bold;

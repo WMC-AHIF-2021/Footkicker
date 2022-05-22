@@ -31,7 +31,14 @@ let index7Btn = null;
 let index8Btn = null;
 let roundOf = null;
 let stageCounter = 0;
+let skipBtn = null;
 function writeStartSiteRoundOf16() {
+    document.getElementById('skipBtn').addEventListener("click", function (e) {
+        for (let i = 48; i < 56; i++) {
+            arr[i] = 1;
+        }
+        writeStartSiteRoundOf8();
+    });
     roundOf.innerText = "Round of 16";
     punkte.innerHTML = "Points: " + pointsScore;
     index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 01</td></img><img class="indexTeam2" src="./resources/icon/Argentina.png"/></img>';
@@ -52,6 +59,12 @@ function writeStartSiteRoundOf16() {
     index8Btn.innerHTML = '<button type="button" class="btn betButton" id="55">Bet</button>';
 }
 function writeStartSiteRoundOf8() {
+    document.getElementById('skipBtn').addEventListener("click", function (e) {
+        for (let i = 56; i < 60; i++) {
+            arr[i] = 1;
+        }
+        writeStartSiteSemiFinals();
+    });
     roundOf.innerText = "Round of 8";
     punkte.innerHTML = "Points: " + pointsScore;
     index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/Uruguay.png"/><td>Game 09</td></img><img class="indexTeam2" src="./resources/icon/France.png"/></img>';
@@ -72,6 +85,12 @@ function writeStartSiteRoundOf8() {
     index8Btn.innerHTML = "";
 }
 function writeStartSiteSemiFinals() {
+    document.getElementById('skipBtn').addEventListener("click", function (e) {
+        for (let i = 60; i < 62; i++) {
+            arr[i] = 1;
+        }
+        writeStartSiteFinal();
+    });
     roundOf.innerText = "Semi-Finals";
     punkte.innerHTML = "Points: " + pointsScore;
     index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 13</td></img><img class="indexTeam2" src="./resources/icon/Belgium.png"/></img>';
@@ -84,6 +103,15 @@ function writeStartSiteSemiFinals() {
     index4Btn.innerHTML = "";
 }
 function writeStartSiteFinal() {
+    document.getElementById('skipBtn').addEventListener("click", function (e) {
+        for (let i = 62; i < 64; i++) {
+            arr[i] = 1;
+        }
+        alert('You completed all games from the knockout-stage');
+        alert(`You got ${pointsScore} points`);
+        alert('You will now return to the start site');
+        window.location.href = '../../../../../index.html';
+    });
     roundOf.innerText = "Finals";
     punkte.innerHTML = "Points: " + pointsScore;
     index1.innerHTML = '<img class="indexTeam1" src="./resources/icon/France.png"/><td>Game 15</td></img><img class="indexTeam2" src="./resources/icon/Croatia.png"/></img>';
@@ -134,6 +162,7 @@ function startGame(data) {
                     if (arr[60] === 1 && arr[61] === 1) {
                         if (arr[62] === 1 && arr[63] === 1) {
                             alert('You completed all games from the knockout-stage');
+                            alert(`You got ${pointsScore} points`);
                             alert('You will now return to the start site');
                             window.location.href = '../../../../../index.html';
                         }
@@ -171,7 +200,6 @@ function startGame(data) {
     });
 }
 function compareResults(data) {
-    //result innerHTML machen damit man farbe änern kann
     let one = 1;
     let homegoals = parseInt(data[gameId].home_team.goals).toString();
     let awaygoals = parseInt(data[gameId].away_team.goals).toString();
@@ -276,6 +304,7 @@ function init() {
     index7Btn = document.getElementById('index7Btn');
     index8Btn = document.getElementById('index8Btn');
     roundOf = document.getElementById('roundOf');
+    skipBtn = document.getElementById('skipBtn');
     arr = new Array(64);
     for (let i = 0; i < arr.length; i++) {
         arr[i] = 0;
