@@ -4,6 +4,9 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     hyphens: auto;
 }
+#xbutton {
+    background-color: white;
+}
 p{
     font-size: 140%;
     margin-left: 7.1%;

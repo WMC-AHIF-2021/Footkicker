@@ -10,6 +10,9 @@ h1{
     text-align: center;
     font-size: 800%;
 }
+#xbutton {
+    background-color: white;
+}
 #logoName {
     color: rgb(38, 142, 206);
     font-size: 180%;

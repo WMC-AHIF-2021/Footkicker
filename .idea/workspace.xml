@@ -4,9 +4,8 @@
     <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/David_Proeller/Procedure of the world cup system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Florian_Hagmair/Procedure_of_the_website.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Julian Kapl/History.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Julian Kapl/History.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Aegypten.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Aegypten.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Argentinien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Argentinien.html" afterDir="false" />
@@ -25,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Kroatien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Kroatien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Marokko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Marokko.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Mexiko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Mexiko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Nations/Nationstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Nationstyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Nigeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Nigeria.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Panama.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Panama.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Peru.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Peru.html" afterDir="false" />
@@ -41,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Tunesien.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Tunesien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Nations/Uruguay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Nations/Uruguay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesCarousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesCarousel.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1653158061641" duration="6844000" />
       <workItem from="1653236094298" duration="3288000" />
       <workItem from="1653243355542" duration="5334000" />
-      <workItem from="1653251847283" duration="3118000" />
+      <workItem from="1653251847283" duration="4159000" />
     </task>
     <servers />
   </component>

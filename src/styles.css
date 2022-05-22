@@ -6,6 +6,9 @@ body{
 .linkeEinrückung {
     margin-left: 2.5%;
 }
+#xbutton {
+    background-color: white;
+}
 a{
     text-decoration: none;
 }
