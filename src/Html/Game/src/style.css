@@ -14,13 +14,13 @@ h1 {
     background-color: white;
 }
 .indexTeam1{
-    margin-left: 9%;
+    margin-left: 12%;
     width: 20%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 .indexTeam2{
     width: 20%;
-    margin-left: 14%;
+    margin-left: 10%;
 }
 body {
     background-image:url("./resources/images/background4.jpg");
