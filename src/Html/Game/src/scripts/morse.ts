@@ -112,10 +112,10 @@ function writeStartSiteFinal():void{
         for(let i = 62;i < 64;i++){
             arr[i] = 1;
         }
-        if(count == 0){
+        if(count === 0){
             alert('You completed all games from the knockout-stage');
             alert(`You got ${pointsScore} points`);
-            count++;
+            count +=1;
         }
         writeStartSiteFinal();
     })
@@ -178,10 +178,10 @@ function startGame(data): void {
                     if(arr[60] === 1 && arr[61] === 1){
 
                         if(arr[62] === 1 && arr[63] === 1){
-                            if(count == 0){
+                            if(count === 0){
                                 alert('You completed all games from the knockout-stage');
                                 alert(`You got ${pointsScore} points`);
-                                count++;
+                                count += 1;
                             }
                             writeStartSiteFinal();
                         }else{

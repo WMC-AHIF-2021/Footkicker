@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="" />
+    <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +67,8 @@
       <workItem from="1653285753906" duration="20000" />
       <workItem from="1653285775152" duration="1859000" />
       <workItem from="1653293194602" duration="1675000" />
+      <workItem from="1653295178514" duration="223000" />
+      <workItem from="1653295517238" duration="209000" />
     </task>
     <servers />
   </component>
