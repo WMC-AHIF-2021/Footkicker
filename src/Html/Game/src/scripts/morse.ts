@@ -114,8 +114,7 @@ function writeStartSiteFinal():void{
         }
         alert('You completed all games from the knockout-stage');
         alert(`You got ${pointsScore} points`);
-        alert('You will now return to the start site');
-        window.location.href = '../../../../../index.html';
+        writeStartSiteFinal();
     })
 
     roundOf.innerText = "Finals";
@@ -178,8 +177,7 @@ function startGame(data): void {
                         if(arr[62] === 1 && arr[63] === 1){
                             alert('You completed all games from the knockout-stage');
                             alert(`You got ${pointsScore} points`);
-                            alert('You will now return to the start site');
-                            window.location.href = '../../../../../index.html';
+                            writeStartSiteFinal();
                         }else{
                             if(stageCounter === 13){
                                 alert('You completed all games from the semi-finals');

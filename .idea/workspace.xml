@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +68,8 @@
       <workItem from="1653251847283" duration="4794000" />
       <workItem from="1653256933982" duration="45000" />
       <workItem from="1653285753906" duration="20000" />
-      <workItem from="1653285775152" duration="1858000" />
+      <workItem from="1653285775152" duration="1859000" />
+      <workItem from="1653293194602" duration="1634000" />
     </task>
     <servers />
   </component>

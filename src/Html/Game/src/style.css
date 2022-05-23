@@ -35,6 +35,9 @@ body {
 #skipBtn{
     margin-left: 83%;
 }
+#startSiteBtn{
+    margin-left: 81.7%;
+}
 #offcanvasNavbarLabel {
     color: rgb(38, 142, 206);
     font-weight: bold;
@@ -155,6 +158,14 @@ td{
     margin-left: 31%;
 }
 @media only screen and (max-width: 600px) {
+    #skipBtn{
+        margin-left: 35%;
+    }
+    #startSiteBtn{
+        margin-top: 1%;
+        font-size: 88%;
+        margin-left: 35%;
+    }
     h1 {
         text-align: center;
         margin-top: 1%;
