@@ -106,14 +106,17 @@ function writeStartSiteSemiFinals():void{
     index4.innerHTML = "";
     index4Btn.innerHTML = "";
 }
-
+let count = 0;
 function writeStartSiteFinal():void{
     document.getElementById('skipBtn').addEventListener("click",function(e){
         for(let i = 62;i < 64;i++){
             arr[i] = 1;
         }
-        alert('You completed all games from the knockout-stage');
-        alert(`You got ${pointsScore} points`);
+        if(count == 0){
+            alert('You completed all games from the knockout-stage');
+            alert(`You got ${pointsScore} points`);
+            count++;
+        }
         writeStartSiteFinal();
     })
 
@@ -175,8 +178,11 @@ function startGame(data): void {
                     if(arr[60] === 1 && arr[61] === 1){
 
                         if(arr[62] === 1 && arr[63] === 1){
-                            alert('You completed all games from the knockout-stage');
-                            alert(`You got ${pointsScore} points`);
+                            if(count == 0){
+                                alert('You completed all games from the knockout-stage');
+                                alert(`You got ${pointsScore} points`);
+                                count++;
+                            }
                             writeStartSiteFinal();
                         }else{
                             if(stageCounter === 13){
