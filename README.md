@@ -40,7 +40,7 @@
 </ul>
 <h2>Technologies</h2>
 <ul style="list-style-type: circle;";>
-    <li>We work with <strong>HTML, HTTP, CSS</strong>.</li>
+    <li>We work with <strong>HTML, HTTP, CSS and Typescript</strong>.</li>
 </ul>
 <h2>Project Members</h2>
     <ul style="list-style-type: circle;";>
