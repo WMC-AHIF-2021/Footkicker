@@ -6,12 +6,6 @@
     <li> We want to give you the perfect <strong>overview</strong> of the <strong>fifa world cup 2018</strong>.</li> 
     <li> Here you will be shown all <strong>game results</strong>.</li>
     <li> If you are a big football fan then follow footkicker to get <strong>detailed information</strong> about the whole fifa world cup 2018.</li>
-    <ul style="list-style-type: disc;";>
-        <li> top scorer</li>
-        <li> most assists</li>
-        <li> team with the most scored goals</li>
-        <li> squad of each team</li>
-    </ul>
 </ul>
         
 <h3>dynamic part</h3>
