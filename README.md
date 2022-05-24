@@ -12,7 +12,6 @@
 <ul style="list-style-type: circle;";>
     <li>You can submit your <strong>own tip</strong> on each game.</li>
     <li> If you have tipped games correctly, you will receive <strong>coins</strong> that will show you at the end of the World Cup how well you have tipped.</li>
-    <li> You can always see the <strong>stats</strong> from your <strong> favourit</strong> team / <strong>player</strong>.</li>
     <li>some <strong>animations</strong></li>  
 </ul>
 
