@@ -156,6 +156,13 @@ function startGame(data) {
         goals2 = document.getElementById("goals2");
         winnerCheck1 = document.getElementById("winnerCheck1");
         winnerCheck2 = document.getElementById("winnerCheck2");
+        let dataforjson = {
+            tippgoals1: goals1,
+            tippgoals2: goals2,
+            tippwinner1: winnerCheck1,
+            tippwinner2: winnerCheck2,
+        };
+        addOnJson(dataforjson);
         if (table.classList.contains("hidden")) {
             compareResults(data);
             startOver();
@@ -284,6 +291,14 @@ function startOver() {
     table.classList.remove("hidden");
     betArea.classList.add("hidden");
 }
+function addOnJson(dataforjson) {
+    $.ajax({
+        url: "http://localhost3000",
+        data: JSON.stringify(dataforjson),
+        type: 'POST',
+        contentType: 'application/json',
+    });
+}
 function init() {
     index2 = document.getElementById("index2");
     index1 = document.getElementById("index1");
@@ -335,4 +350,5 @@ function init() {
 document.addEventListener('DOMContentLoaded', (event) => {
     init();
 });
+export {};
 //# sourceMappingURL=morse.js.map

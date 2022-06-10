@@ -1,3 +1,6 @@
+import {stringify} from "querystring";
+import {Items} from "./interface";
+
 let index1 = null;
 let index2 = null;
 let index3 = null;
@@ -167,6 +170,13 @@ function startGame(data): void {
         goals2 = document.getElementById("goals2");
         winnerCheck1 = document.getElementById("winnerCheck1");
         winnerCheck2 = document.getElementById("winnerCheck2");
+        let dataforjson: Items = {
+            tippgoals1: goals1,
+            tippgoals2: goals2,
+            tippwinner1: winnerCheck1,
+            tippwinner2: winnerCheck2,
+        };
+        addOnJson(dataforjson);
         if (table.classList.contains("hidden")){
             compareResults(data);
             startOver();
@@ -290,6 +300,16 @@ function startOver():void {
     }
     table.classList.remove("hidden");
     betArea.classList.add("hidden");
+}
+
+function addOnJson(dataforjson): void {
+
+    $.ajax({
+        url: "http://localhost3000",
+        data: JSON.stringify(dataforjson),
+        type: 'POST',
+        contentType: 'application/json',
+    });
 }
 
 function init():void{

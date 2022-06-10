@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Html/Game/server/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,10 +36,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2AHIF_WMC_Christian_Ekhator_TodoList(2)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="C:\Users\dap03\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\kaplj\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -69,6 +79,11 @@
       <workItem from="1653293194602" duration="1675000" />
       <workItem from="1653295178514" duration="223000" />
       <workItem from="1653295517238" duration="209000" />
+      <workItem from="1653977772101" duration="1844000" />
+      <workItem from="1654181148598" duration="58000" />
+      <workItem from="1654717255774" duration="9098000" />
+      <workItem from="1654841487525" duration="4567000" />
+      <workItem from="1654852106484" duration="704000" />
     </task>
     <servers />
   </component>
@@ -85,6 +100,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
