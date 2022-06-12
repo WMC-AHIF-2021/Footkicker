@@ -1,6 +1,6 @@
-import {stringify} from "querystring";
-import {Items} from "./interface";
+import {HttpClient, Items} from "./interface.js";
 
+let client:HttpClient;
 let index1 = null;
 let index2 = null;
 let index3 = null;
@@ -35,6 +35,11 @@ let index8Btn = null;
 let roundOf = null;
 let stageCounter = 0;
 let skipBtn = null;
+
+client = new HttpClient();
+client.deleteAllItems().then(() => {
+    console.log("deleted json entries")
+});
 
 function writeStartSiteRoundOf16():void{
     document.getElementById('skipBtn').addEventListener("click",function(e){
@@ -111,7 +116,7 @@ function writeStartSiteSemiFinals():void{
 }
 let count = 0;
 function writeStartSiteFinal():void{
-    document.getElementById('skipBtn').addEventListener("click",function(e){
+    document.getElementById('skipBtn').addEventListener("click",async function(e){
         for(let i = 62;i < 64;i++){
             arr[i] = 1;
         }
@@ -119,6 +124,26 @@ function writeStartSiteFinal():void{
             alert('You completed all games from the knockout-stage');
             alert(`You got ${pointsScore} points`);
             count +=1;
+            client = new HttpClient();
+            let items = await client.getAllItems();
+            console.log(items);
+
+            document.getElementById("betTable").innerHTML = "";
+
+            for (let item of items){
+                let row = document.createElement("div");
+                row.appendChild(document.createTextNode("" + item.country1))
+                row.appendChild(document.createTextNode(" vs " + item.country2))
+                row.appendChild(document.createTextNode(" " + item.realresultgoals1))
+                row.appendChild(document.createTextNode("/" + item.realresultgoals2 + " "))
+                row.appendChild(document.createTextNode("Winner: " + item.realresultwinner))
+                row.appendChild(document.createTextNode("Tip: "))
+                row.appendChild(document.createTextNode(item.tippwinner1 ? item.country1 : ""))
+                row.appendChild(document.createTextNode(item.tippwinner2 ? item.country2 : ""))
+                row.appendChild(document.createTextNode(" " + item.tippgoals1 + "/" + item.tippgoals2))
+                document.getElementById("betTable").appendChild(row);
+            }
+
         }
         writeStartSiteFinal();
     })
@@ -153,7 +178,6 @@ function writeTeamsInBetArea(data){
     header.innerText = data[gameId].home_team_country + " vs " + data[gameId].away_team_country;
     punkte.innerHTML = "Points: " + pointsScore;
 }
-
 function startGame(data): void {
     result = document.getElementById('result');
     writeTeamsInBetArea(data);
@@ -166,17 +190,6 @@ function startGame(data): void {
     })
 
     document.getElementById("submitButton").addEventListener("click", function (e) {
-        goals1 = document.getElementById("goals1");
-        goals2 = document.getElementById("goals2");
-        winnerCheck1 = document.getElementById("winnerCheck1");
-        winnerCheck2 = document.getElementById("winnerCheck2");
-        let dataforjson: Items = {
-            tippgoals1: goals1,
-            tippgoals2: goals2,
-            tippwinner1: winnerCheck1,
-            tippwinner2: winnerCheck2,
-        };
-        addOnJson(dataforjson);
         if (table.classList.contains("hidden")){
             compareResults(data);
             startOver();
@@ -228,13 +241,38 @@ function startGame(data): void {
     })
 }
 
+function safeOnServer(homegoals, awaygoals, realwinner, country1, country2) {
+    goals1 = document.getElementById("goals1");
+    goals2 = document.getElementById("goals2");
+    winnerCheck1 = document.getElementById("winnerCheck1");
+    winnerCheck2 = document.getElementById("winnerCheck2");
+    client = new HttpClient();
+    let dataforjson: Items = {
+        tippgoals1: goals1.value,
+        tippgoals2: goals2.value,
+        tippwinner1: winnerCheck1.checked,
+        tippwinner2: winnerCheck2.checked,
+        realresultgoals1:homegoals,
+        realresultgoals2:awaygoals,
+        realresultwinner:realwinner,
+        country1:country1,
+        country2:country2,
+    };
+    client.addOnJson(dataforjson);
+}
+
 function compareResults(data){
     let one = 1;
     let homegoals = parseInt(data[gameId].home_team.goals).toString();
     let awaygoals = parseInt(data[gameId].away_team.goals).toString();
+    let realwinner = data[gameId].winner;
+    let country1 = data[gameId].home_team.country;
+    let country2 = data[gameId].away_team.country;
+
     if(arr[gameId].toString() === one.toString()){
         alert("You already tipped on that game!");
     } else {
+        safeOnServer(homegoals, awaygoals, realwinner, country1, country2);
         if (data[gameId].winner === data[gameId].home_team.country && winnerCheck1.checked === true && winnerCheck2.checked === false) {
             if (goals1.value === data[gameId].home_team.goals.toString() && goals2.value === data[gameId].away_team.goals.toString()) {
                 alert('5 points! Correct result!');
@@ -301,17 +339,6 @@ function startOver():void {
     table.classList.remove("hidden");
     betArea.classList.add("hidden");
 }
-
-function addOnJson(dataforjson): void {
-
-    $.ajax({
-        url: "http://localhost3000",
-        data: JSON.stringify(dataforjson),
-        type: 'POST',
-        contentType: 'application/json',
-    });
-}
-
 function init():void{
     index2 = document.getElementById("index2");
     index1 = document.getElementById("index1");
@@ -355,10 +382,12 @@ function init():void{
         betArea.classList.add("hidden");
         document.getElementById("betTable").addEventListener("click", function (e) {
             if(e.target.type == "button") {
+                console.log("Test");
                 gameId = parseInt(e.target.id);
                 table.classList.add("hidden");
                 betArea.classList.remove("hidden");
                 startGame(data);
+
             };
         })
     });
