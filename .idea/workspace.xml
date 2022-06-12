@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f26be79e-f7d3-44ea-a2d2-213fb4df78fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/interface.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/build/interface.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/interface.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/build/morse.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/gameIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise_tracks_sample_solution_rough" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="ts.external.directory.path" value="C:\Users\kaplj\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -90,6 +85,7 @@
       <workItem from="1654968061975" duration="2779000" />
       <workItem from="1655027520278" duration="1136000" />
       <workItem from="1655042954576" duration="8466000" />
+      <workItem from="1655054339903" duration="4159000" />
     </task>
     <servers />
   </component>
@@ -113,13 +109,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Html/Game/src/scripts/interface.ts</url>
           <line>37</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Html/Game/src/scripts/morse.ts</url>
-          <line>383</line>
-          <properties lambdaOrdinal="-1" />
+          <line>384</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

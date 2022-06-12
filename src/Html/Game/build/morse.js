@@ -137,12 +137,12 @@ function writeStartSiteFinal() {
                     row.appendChild(document.createTextNode("" + item.country1));
                     row.appendChild(document.createTextNode(" vs " + item.country2));
                     row.appendChild(document.createTextNode(" " + item.realresultgoals1));
-                    row.appendChild(document.createTextNode("/" + item.realresultgoals2 + " "));
+                    row.appendChild(document.createTextNode(" : " + item.realresultgoals2 + " "));
                     row.appendChild(document.createTextNode("Winner: " + item.realresultwinner));
-                    row.appendChild(document.createTextNode("Tip: "));
+                    row.appendChild(document.createTextNode(" Tip: "));
                     row.appendChild(document.createTextNode(item.tippwinner1 ? item.country1 : ""));
                     row.appendChild(document.createTextNode(item.tippwinner2 ? item.country2 : ""));
-                    row.appendChild(document.createTextNode(" " + item.tippgoals1 + "/" + item.tippgoals2));
+                    row.appendChild(document.createTextNode(" " + item.tippgoals1 + " : " + item.tippgoals2));
                     document.getElementById("betTable").appendChild(row);
                 }
             }
