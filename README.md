@@ -45,7 +45,7 @@
 <h2>Project Members</h2>
     <ul style="list-style-type: circle;";>
         <li>Florian Hagmair (Leader)</li>
-        <li></li>
+        <li>David Pröller</li>
         <li>Julian Kapl</li>
     </ul>
 <h2>Tasks of each Member</h2>
